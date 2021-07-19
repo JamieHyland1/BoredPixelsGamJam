@@ -23,11 +23,13 @@ public class MoveController {
     int yDirection;
     bool facingRight = true;
 
+    Animator animator;
+
     public MoveController(){
 
     }
 
-    public MoveController(PlayerSM playerSM, CharacterController controller, float speed, float gravityScale,float jumpHeight, float forceMultiplier, float friction, float xBlast, float yBlast, Transform groundCheck, LayerMask mask){
+    public MoveController(PlayerSM playerSM, CharacterController controller, float speed, float gravityScale,float jumpHeight, float forceMultiplier, float friction, float xBlast, float yBlast, Transform groundCheck, LayerMask mask, Animator animator){
         this._playerSm = playerSM;
         this.characterController = controller;
         this.playerSpeed = speed;
@@ -39,16 +41,22 @@ public class MoveController {
         this.yBlast = yBlast;
         this.groundCheck = groundCheck;
         this.mask = mask;
+        this.animator = animator;
     }
 
     public void moveCharacter(){
         xDirection = (int)Input.GetAxisRaw("Horizontal");  
         yDirection = (int)Input.GetAxisRaw("Vertical");
+        if(xDirection < 0 && _playerSm.transform.localScale.x == 1)_playerSm.transform.localScale = new Vector3(-1,1,1);
+        if(xDirection > 0 && _playerSm.transform.localScale.x == -1)_playerSm.transform.localScale = new Vector3(1,1,1);
         if(isGrounded){
             velocity = new Vector3();
             directionX = xDirection * playerSpeed;
             if(Input.GetButtonDown("Jump") && isGrounded){
+                animator.SetTrigger("Jump");
                 directionY = jumpHeight;
+                animator.SetFloat("ySpeed", Mathf.Abs(velocity.y));
+               
             }
         }
     }
@@ -56,14 +64,19 @@ public class MoveController {
     public void applyGravity(){
         
         isGrounded = UnityEngine.Physics.CheckSphere(groundCheck.position,0.1f,mask);
+        animator.SetBool("Grounded",isGrounded);
+        if(isGrounded)animator.ResetTrigger("Jump");
         if(!isGrounded && !Input.GetButton("Jump"))directionY += gravityScale * forceMultipler * Time.deltaTime; else if(!isGrounded) directionY += gravityScale * Time.deltaTime; else directionY = 0;
-        Debug.Log("Gravity: " + directionY);
     }
     public void applyForces(){
        
         velocity.x = directionX;
         velocity.y = directionY;
-        Debug.Log("APPLY FORCES: " + velocity.y);
+
+        animator.SetFloat("ySpeed", Mathf.Abs(velocity.y));
+        animator.SetFloat("xSpeed", Mathf.Abs(velocity.x));
+
+        Debug.Log(Mathf.Abs(velocity.x));
         characterController.Move(velocity*Time.deltaTime);
 
     }
@@ -85,8 +98,6 @@ public class MoveController {
 
         directionX = 0;
         directionY = 0;
-
-        Debug.Log("BLAST: " + yBlast * -yDirection);
 
         directionX = xBlast * -xDirection;
         directionY = yBlast * yDirection;

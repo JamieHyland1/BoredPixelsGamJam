@@ -57,14 +57,17 @@ public class PlayerSM : StateMachine
 
     [SerializeField]
     GameObject cursor;
+    [SerializeField]
+    Animator animator;
     
     [SerializeField]
     float radius;
     MoveController moveController;
     ShootController shootController;
 
+
     private void Awake() {
-        moveController = new MoveController(this,controller,speed,gravityScale, jumpHeight, forceMultipler, friction, xBlast, yBlast, groundCheck, mask);
+        moveController = new MoveController(this,controller,speed,gravityScale, jumpHeight, forceMultipler, friction, xBlast, yBlast, groundCheck, mask, animator);
         shootController = new ShootController(cursor,radius, this.transform);
         neutralState = new NeutralState(this,moveController,shootController);
         slidingState = new SlidingState(this,5f,moveController);
@@ -73,16 +76,6 @@ public class PlayerSM : StateMachine
    private void Start() {
       if(startingState == States.neutral)this.ChangeState(neutralState);
    }
-
-    public void moveCharacter(){
-        float x = Input.GetAxis("Horizontal");
-        float y = Input.GetAxis("Vertical");
-
-        Vector3 move = transform.right * x  +  transform.forward * y;
-        controller.Move(move*speed*Time.deltaTime);
-
-
-    }
 
     private void OnDrawGizmos() {
         Gizmos.DrawSphere(groundCheck.position,0.3f);    
