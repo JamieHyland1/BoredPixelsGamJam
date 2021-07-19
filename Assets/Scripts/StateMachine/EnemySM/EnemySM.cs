@@ -4,32 +4,26 @@ using UnityEngine;
 
 public class EnemySM : StateMachine
 {
-    public EnemyIdleState IdleState {get; private set;}
-    public EnemyShootState ShootState {get; private set;}
-    public EnemyWalkState WalkState {get; private set;}
+    public EnemyIdleState enemyIdleState {get; private set;}
+    public EnemyFollowState enemyFollowState {get; private set;}
+
+
+    [Header ("Enemy idle route")]
+    [Tooltip ("Creates a path for an enemy to follow when a player isnt around by using a bezier curve")]
+    [SerializeField]
+    Transform[] controlPoints;
 
     [SerializeField]
-    Transform playerTransform;
+    [Tooltip ("determines the distance the player has to be in range of the enemy for them to follow them")]
+    float enemyViewRadius;
 
-    [SerializeField]
-    Animator animator;
-
-    [SerializeField]
-    public float distanceToShootFrom = 2f;
-
-    [SerializeField]
-    GameObject bulletObj;
-
-    [SerializeField]
-    Transform bulletTransform;
-
+    private GameObject player;
     private void Awake() {
-        IdleState = new EnemyIdleState(this, playerTransform, animator);
-        WalkState = new EnemyWalkState(this, playerTransform,animator, 1.3f, distanceToShootFrom);
-        ShootState = new EnemyShootState(this, playerTransform, animator, bulletTransform, bulletObj);
+        player = GameObject.FindGameObjectWithTag("Player");
+        enemyFollowState = new EnemyFollowState(this,enemyViewRadius,player);
+        enemyIdleState = new EnemyIdleState(this, controlPoints, enemyViewRadius,player);
 
-
-        this.ChangeState(IdleState);
+        this.ChangeState(enemyIdleState);
     }
 
     private void OnEnable(){
