@@ -32,7 +32,7 @@ public class ShootingState : IState
     }
 
     public void Tick(){
-       _playerSM.moveCharacter();
+   
 
 
         if(Input.GetMouseButtonDown(0)){
