@@ -34,12 +34,13 @@ public class EnemyIdleState : IState
     }
 
     public void Tick(){
-        
+        _EnemySM.checkForBombs();
         _EnemySM.transform.position =  Vector3.MoveTowards(_EnemySM.transform.position,path[nextPathIndex],5*Time.deltaTime);
         if(Vector3.Distance(_EnemySM.transform.position,path[nextPathIndex]) < 0.1f){
             _EnemySM.transform.position = path[nextPathIndex];
             nextPathIndex++;
         }
+
 
         if(nextPathIndex >= path.Count){
             path.Reverse();
@@ -64,4 +65,6 @@ public class EnemyIdleState : IState
         }
         return path;
     }
+
+    
 }

@@ -30,6 +30,8 @@ public class ShootController {
    }
 
    public void placeBomb(){
-        
+       var bomb =  Resources.Load<GameObject>("Prefabs/Bomb");
+       Debug.Log(bomb);
+       MonoBehaviour.Instantiate(bomb,cursor.transform.position,cursor.transform.rotation);
    }
 }
