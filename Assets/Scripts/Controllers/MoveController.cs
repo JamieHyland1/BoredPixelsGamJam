@@ -99,7 +99,9 @@ public class MoveController {
         directionX = 0;
         directionY = 0;
 
+        
         directionX = xBlast * -xDirection;
-        directionY = yBlast * yDirection;
+        //add a tiny bit of force in the y direction if the player is running on the ground and does a rocket jump, prevents walking code from overriding the blast code
+        if(yDirection == 0) directionY = yBlast * -.25f; else directionY = yBlast * yDirection;
     }
 }

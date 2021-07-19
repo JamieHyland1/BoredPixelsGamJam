@@ -41,7 +41,7 @@ public class EnemyShootState : IState
         if(counter <= 0){
             Debug.Log("BANG!");
             MonoBehaviour.Instantiate(bulletObject,bulletTransform.position,Quaternion.identity);
-            _EnemySM.ChangeState(_EnemySM.IdleState);
+          //  _EnemySM.ChangeState(_EnemySM.IdleState);
         }
     }
 }

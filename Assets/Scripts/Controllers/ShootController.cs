@@ -28,4 +28,8 @@ public class ShootController {
         xDir = 0;
         yDir = 0;
    }
+
+   public void placeBomb(){
+        
+   }
 }
