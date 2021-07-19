@@ -36,9 +36,12 @@ public class NeutralState : IState
         moveController.moveCharacter();
 
         if(Input.GetButtonDown("Fire1")){
-            _playerSM.ChangeState(_playerSM.slidingState);
         }
-        
+        if(Input.GetButtonDown("Fire3")){
+            
+            _playerSM.ChangeState(_playerSM.slidingState);
+
+        }
         if(Input.GetButtonDown("Fire2")){
             Debug.Log("dash");
             moveController.Dash();

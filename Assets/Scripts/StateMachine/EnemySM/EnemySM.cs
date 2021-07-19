@@ -17,6 +17,9 @@ public class EnemySM : StateMachine
     [Tooltip ("determines the distance the player has to be in range of the enemy for them to follow them")]
     float enemyViewRadius;
 
+    [SerializeField]
+    private bool followsPath = false;
+
     private GameObject player;
     private void Awake() {
         player = GameObject.FindGameObjectWithTag("Player");

@@ -47,10 +47,10 @@ public class EnemyWalkState : IState
         if(counter <= 0)readyToShoot = true;
 
         if(readyToShoot && Vector3.Distance(_EnemySM.transform.position,playerTransform.position) >= distanceToShootFrom){
-            _EnemySM.ChangeState(_EnemySM.ShootState);
+           // _EnemySM.ChangeState(_EnemySM.ShootState);
         }
         //move to player
         _EnemySM.transform.position = Vector3.MoveTowards(_EnemySM.transform.position,playerTransform.position,5f*Time.deltaTime);
-        if(Vector3.Distance(_EnemySM.transform.position,playerTransform.position) > 15)_EnemySM.ChangeState(_EnemySM.IdleState);
+       // if(Vector3.Distance(_EnemySM.transform.position,playerTransform.position) > 15)_EnemySM.ChangeState(_EnemySM.IdleState);
     }
 }

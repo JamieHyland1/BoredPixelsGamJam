@@ -29,6 +29,15 @@ TextureImporter:
   - first:
       213: 8008146327532828263
     second: Drone_Idle_8
+  - first:
+      213: 7713498290081282570
+    second: Drone_Idle_9
+  - first:
+      213: -6927801558394895275
+    second: Drone_Idle_10
+  - first:
+      213: -4909648512774682472
+    second: Drone_Idle_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -72,7 +81,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 128
+  spritePixelsToUnits: 96
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -164,10 +173,10 @@ TextureImporter:
       name: Drone_Idle_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 128
-        height: 96
+        x: 9
+        y: 21
+        width: 78
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,7 +184,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0e8ed1b2940c9f4bb82cb2ac2f876d9
+      spriteID: 3d8a7ca15cb953644a6264a10c856f0a
       internalID: 6828952278985953215
       vertices: []
       indices: 
@@ -185,10 +194,10 @@ TextureImporter:
       name: Drone_Idle_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 128
-        height: 96
+        x: 105
+        y: 25
+        width: 78
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,7 +205,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be66eeefe6dcaf249a1c4750b1ddccd7
+      spriteID: c326596a4078b0c4aa9ea6e9061f6476
       internalID: 8045602147652343046
       vertices: []
       indices: 
@@ -206,10 +215,10 @@ TextureImporter:
       name: Drone_Idle_2
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
-        width: 128
-        height: 96
+        x: 201
+        y: 27
+        width: 78
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,7 +226,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45d4f6307fc7eda4da1a0327eb197a7b
+      spriteID: 8465f98ed3c527d44a04c8dde4dc2009
       internalID: -2008379782812194055
       vertices: []
       indices: 
@@ -227,10 +236,10 @@ TextureImporter:
       name: Drone_Idle_3
       rect:
         serializedVersion: 2
-        x: 384
-        y: 0
-        width: 128
-        height: 96
+        x: 297
+        y: 28
+        width: 78
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,7 +247,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bedce5918e8be7f4c8df329ad311b54e
+      spriteID: 013cc8493e494f04b8d8b505d8c1acfe
       internalID: 3346191941518664324
       vertices: []
       indices: 
@@ -248,10 +257,10 @@ TextureImporter:
       name: Drone_Idle_4
       rect:
         serializedVersion: 2
-        x: 512
-        y: 0
-        width: 128
-        height: 96
+        x: 393
+        y: 27
+        width: 78
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,7 +268,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fd01a98490498545a806ded6bb72025
+      spriteID: 2dd651a2f8aa23a439b3aeb58777b9b4
       internalID: 100669072484946027
       vertices: []
       indices: 
@@ -269,10 +278,10 @@ TextureImporter:
       name: Drone_Idle_5
       rect:
         serializedVersion: 2
-        x: 640
-        y: 0
-        width: 128
-        height: 96
+        x: 489
+        y: 25
+        width: 78
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,7 +289,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc966a41afc24354487be3295747002b
+      spriteID: a3b563611af18da41992fb7f91925f86
       internalID: 2711383819490048854
       vertices: []
       indices: 
@@ -290,10 +299,10 @@ TextureImporter:
       name: Drone_Idle_6
       rect:
         serializedVersion: 2
-        x: 768
-        y: 0
-        width: 128
-        height: 96
+        x: 585
+        y: 21
+        width: 78
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,7 +310,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0baef27023ba0414fa52187cb91c2dac
+      spriteID: 5fbcdd28083066e46a0b3ed8bd26dcd6
       internalID: -8089508998304816351
       vertices: []
       indices: 
@@ -311,10 +320,10 @@ TextureImporter:
       name: Drone_Idle_7
       rect:
         serializedVersion: 2
-        x: 896
-        y: 0
-        width: 128
-        height: 96
+        x: 681
+        y: 17
+        width: 78
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -322,7 +331,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfb1ceb68fffc9d4780dd4da7e88f4d4
+      spriteID: 37276eaead0e11440ad3dc86ded465c7
       internalID: 7890157845613554396
       vertices: []
       indices: 
@@ -332,10 +341,10 @@ TextureImporter:
       name: Drone_Idle_8
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 0
-        width: 128
-        height: 96
+        x: 777
+        y: 15
+        width: 78
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,8 +352,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee3548666ffb96f499db76bb7c93a137
+      spriteID: 5f3ee6bb90e088748a60516ac9acb655
       internalID: 8008146327532828263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 14
+        width: 78
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229774a362400b848b22af96beea5053
+      internalID: 7713498290081282570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 15
+        width: 78
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef622b3ab97032a4c81037243ed6874d
+      internalID: -6927801558394895275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 17
+        width: 78
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9544722ea4827429de1f147017634c
+      internalID: -4909648512774682472
       vertices: []
       indices: 
       edges: []
