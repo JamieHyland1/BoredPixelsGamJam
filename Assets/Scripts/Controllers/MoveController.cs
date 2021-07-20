@@ -6,16 +6,22 @@ public class MoveController {
     private PlayerSM _playerSm;
     private CharacterController characterController;
     private float playerSpeed;
+	private float playerAccel = 0.25f;
+	private float playerAirAccel = 0.15f;
     private float gravityScale;
     private float jumpHeight;
     private float forceMultipler;
     private float friction;
     private float directionY;
     private float directionX;
+	
+	private float jumpDelay = 0.1f;
+	private float currentJumpDelay;
 
     private float xBlast;
     private float yBlast;
     private Vector3 velocity;
+	private bool prevGrounded;
     private bool isGrounded;
     private LayerMask mask;
     private Transform groundCheck;
@@ -42,28 +48,92 @@ public class MoveController {
         this.groundCheck = groundCheck;
         this.mask = mask;
         this.animator = animator;
+		currentJumpDelay = jumpDelay;
     }
 
     public void moveCharacter(){
+		
         xDirection = (int)Input.GetAxisRaw("Horizontal");  
         yDirection = (int)Input.GetAxisRaw("Vertical");
         if(xDirection < 0 && _playerSm.transform.localScale.x == 1)_playerSm.transform.localScale = new Vector3(-1,1,1);
         if(xDirection > 0 && _playerSm.transform.localScale.x == -1)_playerSm.transform.localScale = new Vector3(1,1,1);
         if(isGrounded){
             velocity = new Vector3();
-            directionX = xDirection * playerSpeed;
-            if(Input.GetButtonDown("Jump") && isGrounded){
-                animator.SetTrigger("Jump");
-                directionY = jumpHeight;
-                animator.SetFloat("ySpeed", Mathf.Abs(velocity.y));
-               
+			
+			if(xDirection != 0)	// Heavily decelerate when no input in horizontal direction.
+			{
+				directionX += xDirection * playerAccel;
+				if(Mathf.Abs(directionX) > playerSpeed)
+				{
+					directionX = playerSpeed * Mathf.Sign(directionX);
+				}
+			}
+			else
+			{
+				float tempDirectionX = directionX;
+				directionX -= directionX * (3 * playerAccel);
+				if(Mathf.Sign(tempDirectionX) != Mathf.Sign(directionX)) // We decelerated too far and passed stopping point
+				{
+					directionX = 0.0f;
+				}
+				
+				xDirection = (int)(-3 * Mathf.Sign(directionX));
+			}
+			
+            if(Input.GetButton("Jump") && isGrounded){
+				currentJumpDelay -= Time.deltaTime;
+				animator.SetTrigger("Jump");
+				
+				// Debug.Log(currentJumpDelay);
+				
+				if(currentJumpDelay <= 0)
+				{
+					currentJumpDelay = 0;
+					directionY = jumpHeight;
+					animator.SetFloat("ySpeed", Mathf.Abs(velocity.y));
+				}
             }
+			else
+			{
+				currentJumpDelay = jumpDelay;
+			}
         }
+		else // Mitigated player movement while not grounded
+		{
+			if(xDirection != 0)
+			{
+				directionX += xDirection * playerAirAccel;
+				if(Mathf.Abs(directionX) > playerSpeed)
+				{
+					directionX = playerSpeed * Mathf.Sign(directionX);
+				}
+			}
+			else
+			{
+				float tempDirectionX = directionX;
+				directionX -= directionX * (3 * playerAccel);
+				if(Mathf.Sign(tempDirectionX) != Mathf.Sign(directionX)) // We decelerated too far and passed stopping point
+				{
+					directionX = 0.0f;
+				}
+				
+				xDirection = (int)(-3 * Mathf.Sign(directionX));
+			}
+		}
     }
 
     public void applyGravity(){
         
+		prevGrounded = isGrounded;
         isGrounded = UnityEngine.Physics.CheckSphere(groundCheck.position,0.1f,mask);
+		if(prevGrounded != isGrounded && isGrounded) // Weren't grounded last frame, but we are now.
+		{
+			animator.SetTrigger("Land");
+		}
+		else if(!prevGrounded)
+		{
+			animator.ResetTrigger("Land");
+		}
         animator.SetBool("Grounded",isGrounded);
         if(isGrounded)animator.ResetTrigger("Jump");
         if(!isGrounded && !Input.GetButton("Jump"))directionY += gravityScale * forceMultipler * Time.deltaTime; else if(!isGrounded) directionY += gravityScale * Time.deltaTime; else directionY = 0;
@@ -73,10 +143,10 @@ public class MoveController {
         velocity.x = directionX;
         velocity.y = directionY;
 
-        animator.SetFloat("ySpeed", Mathf.Abs(velocity.y));
+        animator.SetFloat("ySpeed", velocity.y);
         animator.SetFloat("xSpeed", Mathf.Abs(velocity.x));
 
-        Debug.Log(Mathf.Abs(velocity.x));
+        // Debug.Log((velocity.y));  // Commented debug spam
         characterController.Move(velocity*Time.deltaTime);
 
     }
