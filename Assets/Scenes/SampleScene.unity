@@ -175,7 +175,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 344068595}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4.38, z: 7.8}
+  m_LocalPosition: {x: 18.81, y: 4.38, z: 7.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1003409383}
@@ -199,7 +199,7 @@ MonoBehaviour:
   - {fileID: 172286597}
   - {fileID: 1329410933}
   - {fileID: 2132517129}
-  enemyViewRadius: 0
+  enemyViewRadius: 7
   followsPath: 0
 --- !u!1 &549055373
 GameObject:
