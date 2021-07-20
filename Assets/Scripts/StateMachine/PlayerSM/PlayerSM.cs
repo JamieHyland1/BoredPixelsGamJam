@@ -47,7 +47,7 @@ public class PlayerSM : StateMachine
 
     [SerializeField]
     LayerMask mask;
-
+    
     [Tooltip("This is a pop up note hovering over the var in inspector")]
     [SerializeField]
     Transform shootingTransform;
@@ -64,19 +64,16 @@ public class PlayerSM : StateMachine
     float radius;
     MoveController moveController;
     ShootController shootController;
-
-
     private void Awake() {
         moveController = new MoveController(this,controller,speed,gravityScale, jumpHeight, forceMultipler, friction, xBlast, yBlast, groundCheck, mask, animator);
         shootController = new ShootController(explosion,radius, this.transform);
+
         neutralState = new NeutralState(this,moveController,shootController);
         slidingState = new SlidingState(this,5f,moveController);
     }
-
    private void Start() {
       if(startingState == States.neutral)this.ChangeState(neutralState);
    }
-
     private void OnDrawGizmos() {
         Gizmos.DrawSphere(groundCheck.position,0.3f);    
     }

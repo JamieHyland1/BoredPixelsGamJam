@@ -31,9 +31,12 @@ public class EnemyFollowState : IState{
     }
 
     public void Tick(){
+        _EnemySM.checkForBombs();
         _EnemySM.transform.position = Vector3.MoveTowards(_EnemySM.transform.position,player.transform.position, 15*Time.deltaTime);
         if(Vector3.Distance(_EnemySM.transform.position,player.transform.position) > enemyViewRadius){
             _EnemySM.ChangeState(_EnemySM.enemyIdleState);
         }
     }
+
+    
 }
