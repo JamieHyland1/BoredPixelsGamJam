@@ -9,25 +9,23 @@ public class Bomb : MonoBehaviour
     private float timer;
     public bool active {get; set;}
 
+    Animator animator;
+
     private float counter;
     // Start is called before the first frame update
     void Start()
     {
         counter = timer;
         active = false;
+        animator = this.GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
         if(active){
-          //  Debug.Log("active");
-            counter -= Time.deltaTime;
-
-        }
-
-        if(counter <= 0){
-            Destroy(this.gameObject);
+            animator.SetTrigger("Activate");
+            Destroy (gameObject, animator.GetCurrentAnimatorStateInfo(0).length + 0.5f); 
         }
     }
 }

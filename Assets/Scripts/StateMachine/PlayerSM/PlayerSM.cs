@@ -56,7 +56,8 @@ public class PlayerSM : StateMachine
     float jumpHeight;
 
     [SerializeField]
-    GameObject explosion;
+    GameObject cursor;
+
     [SerializeField]
     Animator animator;
     
@@ -66,7 +67,7 @@ public class PlayerSM : StateMachine
     ShootController shootController;
     private void Awake() {
         moveController = new MoveController(this,controller,speed,gravityScale, jumpHeight, forceMultipler, friction, xBlast, yBlast, groundCheck, mask, animator);
-        shootController = new ShootController(explosion,radius, this.transform);
+        shootController = new ShootController(cursor,radius, this.transform);
 
         neutralState = new NeutralState(this,moveController,shootController);
         slidingState = new SlidingState(this,5f,moveController);
@@ -76,5 +77,10 @@ public class PlayerSM : StateMachine
    }
     private void OnDrawGizmos() {
         Gizmos.DrawSphere(groundCheck.position,0.3f);    
+    }
+
+    public void hit(){
+        this.playerHealth -= 5;
+        animator.SetTrigger("Hit");
     }
 }

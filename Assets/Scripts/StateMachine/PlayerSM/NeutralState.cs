@@ -44,6 +44,7 @@ public class NeutralState : IState
         if(Input.GetButtonDown("Fire2")){
             Debug.Log("dash");
             moveController.Dash();
+            shootController.rocketImpulse();
         }
 
 

@@ -77,7 +77,6 @@ public class MoveController {
         animator.SetFloat("ySpeed", Mathf.Abs(velocity.y));
         animator.SetFloat("xSpeed", Mathf.Abs(velocity.x));
 
-        Debug.Log(Mathf.Abs(velocity.x));
         characterController.Move(velocity*Time.deltaTime);
 
     }

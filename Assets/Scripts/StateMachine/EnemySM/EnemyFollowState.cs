@@ -36,6 +36,10 @@ public class EnemyFollowState : IState{
         if(Vector3.Distance(_EnemySM.transform.position,player.transform.position) > enemyViewRadius){
             _EnemySM.ChangeState(_EnemySM.enemyIdleState);
         }
+        if(Vector3.Distance(_EnemySM.transform.position,player.transform.position) < 1){
+            Debug.Log("hitting");
+            player.GetComponent<PlayerSM>().hit();
+        }
     }
 
     
