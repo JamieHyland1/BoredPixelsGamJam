@@ -56,7 +56,7 @@ public class PlayerSM : StateMachine
     float jumpHeight;
 
     [SerializeField]
-    GameObject cursor;
+    GameObject explosion;
     [SerializeField]
     Animator animator;
     
@@ -65,8 +65,9 @@ public class PlayerSM : StateMachine
     MoveController moveController;
     ShootController shootController;
     private void Awake() {
-        moveController  = new MoveController(this,controller,speed,gravityScale, jumpHeight, forceMultipler, friction, xBlast, yBlast, groundCheck, mask, animator);
-        shootController = new ShootController(cursor,radius, this.transform);
+        moveController = new MoveController(this,controller,speed,gravityScale, jumpHeight, forceMultipler, friction, xBlast, yBlast, groundCheck, mask, animator);
+        shootController = new ShootController(explosion,radius, this.transform);
+
         neutralState = new NeutralState(this,moveController,shootController);
         slidingState = new SlidingState(this,5f,moveController);
     }
