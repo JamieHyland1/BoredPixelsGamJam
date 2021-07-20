@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PlayerGraphics
   - Bomb
+  - Enemy
   layers:
   - Default
   - TransparentFX

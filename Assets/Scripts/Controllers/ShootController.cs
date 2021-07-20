@@ -7,13 +7,15 @@ public class ShootController {
     float radius;
     float x,y;
     Transform playerTransform;
+
    public ShootController(){
 
    }
    public ShootController(GameObject cursor, float radius, Transform playerTransform){
        ShootController.cursor = cursor;
-       this.radius = radius;
+       this.radius = radius/2;
        this.playerTransform = playerTransform;
+ 
    }
 
    public void Aim(){
@@ -27,6 +29,11 @@ public class ShootController {
         y = 0;
         xDir = 0;
         yDir = 0;
+   }
+
+   public void rocketImpulse(){
+        var explosionFX =  Resources.Load<GameObject>("Prefabs/Explosion");
+        MonoBehaviour.Instantiate(explosionFX,cursor.transform.position,cursor.transform.rotation);
    }
 
    public void placeBomb(){
