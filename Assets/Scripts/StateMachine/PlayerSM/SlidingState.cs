@@ -12,25 +12,31 @@ public class SlidingState : IState
     MoveController moveController;
 
     Rigidbody2D rigidbody2D;
+
+    Animator animator;
     
     public SlidingState(){
 
     }
 
-    public SlidingState(PlayerSM _playerSM, float freezeTime, MoveController moveController, Rigidbody2D rigidbody2D){
+    public SlidingState(PlayerSM _playerSM, float freezeTime, MoveController moveController, Rigidbody2D rigidbody2D, Animator animator){
         this._playerSM = _playerSM;
         this.freezeTime = freezeTime;
         this.moveController = moveController;
         this.rigidbody2D = rigidbody2D;
+        this.animator = animator;
     }
     public void Enter(){
         counter = freezeTime;
-        rigidbody2D.freezeRotation = false;
+     //   rigidbody2D.freezeRotation = false;
+        animator.SetBool("Sliding",true);
     
     }  
 
     public void Exit(){
-        rigidbody2D.freezeRotation = true;
+    //    rigidbody2D.freezeRotation = true;
+        animator.SetBool("Sliding",false);
+       // _playerSM.transform.rotation.eulerAngles = new Vector3(0,0,0);
     }
 
     public void FixedTick(){
