@@ -39,4 +39,9 @@ public abstract class StateMachine : MonoBehaviour
         if(currentState != null && !_inTransition)
             currentState.Tick();
     }
+
+    private void FixedUpdate() {
+        if(currentState != null && !_inTransition)
+            currentState.FixedTick();
+    }
 }

@@ -10,24 +10,27 @@ public class SlidingState : IState
     float counter;
 
     MoveController moveController;
+
+    Rigidbody2D rigidbody2D;
     
     public SlidingState(){
 
     }
 
-    public SlidingState(PlayerSM _playerSM, float freezeTime, MoveController moveController){
+    public SlidingState(PlayerSM _playerSM, float freezeTime, MoveController moveController, Rigidbody2D rigidbody2D){
         this._playerSM = _playerSM;
         this.freezeTime = freezeTime;
         this.moveController = moveController;
+        this.rigidbody2D = rigidbody2D;
     }
     public void Enter(){
         counter = freezeTime;
-       
+        rigidbody2D.freezeRotation = false;
     
     }  
 
     public void Exit(){
-
+        rigidbody2D.freezeRotation = true;
     }
 
     public void FixedTick(){

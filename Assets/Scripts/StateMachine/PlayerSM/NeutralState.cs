@@ -25,7 +25,8 @@ public class NeutralState : IState
     }
 
     public void FixedTick(){
-
+      
+         moveController.applyForces();
     }
 
     public void Tick(){
@@ -46,10 +47,10 @@ public class NeutralState : IState
             moveController.Dash();
             shootController.rocketImpulse();
         }
+    
 
-
-        moveController.applyForces();
+       
         
-        shootController.Aim();
+//        shootController.Aim();
     }
 }

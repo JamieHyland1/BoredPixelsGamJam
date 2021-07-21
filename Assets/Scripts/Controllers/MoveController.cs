@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoveController {
     private PlayerSM _playerSm;
-    private CharacterController characterController;
+    private Rigidbody2D characterController;
     private float playerSpeed;
     private float gravityScale;
     private float jumpHeight;
@@ -19,6 +19,10 @@ public class MoveController {
     private bool isGrounded;
     private LayerMask mask;
     private Transform groundCheck;
+    private Transform wallCheckR;
+    private Transform wallCheckL;
+
+    private Transform wallCheckT;
     int xDirection;
     int yDirection;
     bool facingRight = true;
@@ -29,7 +33,7 @@ public class MoveController {
 
     }
 
-    public MoveController(PlayerSM playerSM, CharacterController controller, float speed, float gravityScale,float jumpHeight, float forceMultiplier, float friction, float xBlast, float yBlast, Transform groundCheck, LayerMask mask, Animator animator){
+    public MoveController(PlayerSM playerSM, Rigidbody2D controller, float speed, float gravityScale,float jumpHeight, float forceMultiplier, float friction, float xBlast, float yBlast, Transform groundCheck,Transform wallCheckR, Transform wallCheckL, Transform wallCheckT, LayerMask mask, Animator animator){
         this._playerSm = playerSM;
         this.characterController = controller;
         this.playerSpeed = speed;
@@ -40,6 +44,9 @@ public class MoveController {
         this.xBlast = xBlast;
         this.yBlast = yBlast;
         this.groundCheck = groundCheck;
+        this.wallCheckR = wallCheckR;
+        this.wallCheckL = wallCheckL;
+        this.wallCheckT = wallCheckT;
         this.mask = mask;
         this.animator = animator;
     }
@@ -57,14 +64,13 @@ public class MoveController {
                 directionY = jumpHeight;
                 animator.SetFloat("ySpeed", Mathf.Abs(velocity.y));
                 animator.SetTrigger("Jump");
-               
             }
         }
     }
 
     public void applyGravity(){
         
-        isGrounded = UnityEngine.Physics.CheckSphere(groundCheck.position,0.1f,mask);
+        isGrounded = UnityEngine.Physics2D.OverlapCircle(groundCheck.position,0.1f,mask);
         animator.SetBool("Grounded",isGrounded);
         if(isGrounded)animator.ResetTrigger("Jump");
         if(!isGrounded && !Input.GetButton("Jump"))directionY += gravityScale * forceMultipler * Time.deltaTime; else if(!isGrounded) directionY += gravityScale * Time.deltaTime; else directionY = 0;
@@ -74,10 +80,13 @@ public class MoveController {
         velocity.x = directionX;
         velocity.y = directionY;
 
+        characterController.velocity = new Vector2();
+        velocity = collisionCheck(velocity);
         animator.SetFloat("ySpeed", Mathf.Abs(velocity.y));
         animator.SetFloat("xSpeed", Mathf.Abs(velocity.x));
-
-        characterController.Move(velocity*Time.deltaTime);
+       
+        characterController.velocity += ((Vector2)velocity * Time.fixedDeltaTime);
+        
 
     }
     public void slide(){
@@ -91,6 +100,25 @@ public class MoveController {
 
     }
 
+    Vector2 collisionCheck(Vector2 posNextFrame){
+       // Debug.Log(velocity + " " + posNextFrame);
+        RaycastHit2D hitRight = Physics2D.Raycast(wallCheckR.transform.position, Vector2.right,0.3f,mask);
+        RaycastHit2D hitLeft = Physics2D.Raycast(wallCheckL.transform.position, Vector2.left,0.3f,mask);
+        RaycastHit2D groundHit = Physics2D.Raycast(groundCheck.transform.position, Vector2.left,0.3f,mask);
+        RaycastHit2D topHit = Physics2D.Raycast(wallCheckT.transform.position, Vector2.up,0.3f,mask);
+        if(hitLeft.collider != null && xDirection == -1)posNextFrame.x  = 0;
+        if(hitRight.collider != null && xDirection == 1)posNextFrame.x = 0;
+       
+        if(topHit.collider != null && Mathf.Sign(posNextFrame.y) == 1){
+            posNextFrame.y = 0;
+            applyGravity();
+        }
+        
+        //Debug.Log(posNextFrame);
+        return posNextFrame;
+        //RaycastHit2D hitLow = Physics2D.Raycast(groundCheck.transform.position, -direction,0.3f,1<<8);
+    }
+
     public void Dash(){
     
         //reset the players momentum upon dash, if this isnt there and you rocket dash left, then rocket dash right,
@@ -101,7 +129,16 @@ public class MoveController {
 
         
         directionX = xBlast * -xDirection;
+    
         //add a tiny bit of force in the y direction if the player is running on the ground and does a rocket jump, prevents walking code from overriding the blast code
         if(yDirection == 0) directionY = yBlast * -.25f; else directionY = yBlast * yDirection;
+        // Debug.Log(new Vector2(directionX,directionY));
+        // characterController.MovePosition(characterController.position +  new Vector2(directionX,directionY)*Time.deltaTime);
+    }
+
+
+    void checkMag(Vector2 posNextFrame){
+        float mag = posNextFrame.magnitude;
+
     }
 }

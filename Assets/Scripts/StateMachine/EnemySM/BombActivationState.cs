@@ -12,14 +12,17 @@ public class BombActivationState : IState
     Queue<GameObject> bombsToCheck;
 
     GameObject currentBomb = null;
+
+    float speed;
     public BombActivationState(){
 
     }
 
-    public BombActivationState(EnemySM _enemySM, float viewRadius){
+    public BombActivationState(EnemySM _enemySM, float viewRadius, float speed){
         this._enemySM = _enemySM;
         this.viewRadius = viewRadius;
         bombsToCheck = new Queue<GameObject>();
+        this.speed = speed;
     }
     public void Enter(){
         GameObject[] bombs = GameObject.FindGameObjectsWithTag("Bomb");
@@ -46,7 +49,7 @@ public class BombActivationState : IState
     public void Tick(){
         if(bombsToCheck.Count > 0 && currentBomb == null)currentBomb = bombsToCheck.Dequeue();
         if(currentBomb != null){
-            _enemySM.transform.position = Vector3.MoveTowards(_enemySM.transform.position,currentBomb.transform.position, 15*Time.deltaTime);
+            _enemySM.transform.position = Vector3.MoveTowards(_enemySM.transform.position,currentBomb.transform.position, speed*Time.deltaTime);
 
             if(Vector3.Distance(_enemySM.transform.position,currentBomb.transform.position) <= 1){
                 counter -= Time.deltaTime;
