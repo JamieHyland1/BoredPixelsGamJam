@@ -79,7 +79,7 @@ public class PlayerSM : StateMachine
         shootController = new ShootController(cursor,radius, this.transform);
 
         neutralState = new NeutralState(this,moveController,shootController);
-        slidingState = new SlidingState(this,5f,moveController, controller);
+        slidingState = new SlidingState(this,5f,moveController, controller,animator);
     }
    private void Start() {
       if(startingState == States.neutral)this.ChangeState(neutralState);
@@ -91,6 +91,7 @@ public class PlayerSM : StateMachine
     public void hit(){
         this.playerHealth -= 5;
         animator.SetTrigger("Hit");
+        //animator.ResetTrigger("Hit");
     }
 
      private void OnTriggerEnter2D(Collider2D other) {

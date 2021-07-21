@@ -813,7 +813,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -916,7 +916,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cdac0caebd0888498e4d8f33dea3392
+      spriteID: 2c35debf3a6b8274fa2d2ba8648f0a15
       internalID: 8030848790815931490
       vertices: []
       indices: 
@@ -937,7 +937,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63317e279900a7140a14f17c42c1cd80
+      spriteID: a1cc34b6e6dfa7c4fa73dce8a8894532
       internalID: 2745570341832611492
       vertices: []
       indices: 
@@ -958,7 +958,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6e05b7b9b4c8234bb2f8e1d422d22b4
+      spriteID: 392bf962181a99944b8021ef5e630ead
       internalID: -6956939350177505356
       vertices: []
       indices: 
@@ -968,7 +968,7 @@ TextureImporter:
       name: Warehouse_Tileset_Props_3
       rect:
         serializedVersion: 2
-        x: 48
+        x: 64
         y: 240
         width: 16
         height: 16
@@ -979,7 +979,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb5993b0f74a6ee4886e2cbc379c9b93
+      spriteID: 50eae8e7ea0fc4745860a65af2f0a8f0
       internalID: -7071965119516073586
       vertices: []
       indices: 
@@ -989,7 +989,7 @@ TextureImporter:
       name: Warehouse_Tileset_Props_4
       rect:
         serializedVersion: 2
-        x: 64
+        x: 80
         y: 240
         width: 16
         height: 16
@@ -1000,7 +1000,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 320a7f6b07dbe704fa34c8c5a78b2391
+      spriteID: 44b8ea80502c201429e3100e39f3aaf5
       internalID: -1822719379413962751
       vertices: []
       indices: 
@@ -1010,7 +1010,7 @@ TextureImporter:
       name: Warehouse_Tileset_Props_5
       rect:
         serializedVersion: 2
-        x: 80
+        x: 96
         y: 240
         width: 16
         height: 16
@@ -1021,7 +1021,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ad8a63c92774da469b47e9528ff1b47
+      spriteID: 460ffd1c8f9a57e4bae7443c0e99cd06
       internalID: 7045040052214367261
       vertices: []
       indices: 
@@ -1031,7 +1031,7 @@ TextureImporter:
       name: Warehouse_Tileset_Props_6
       rect:
         serializedVersion: 2
-        x: 96
+        x: 112
         y: 240
         width: 16
         height: 16
@@ -1042,7 +1042,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68ebfdfe699e4c140bcd338829f5ea79
+      spriteID: 3a0bf9f8623ebff4d89c1a2734a58ded
       internalID: -6999740243707274109
       vertices: []
       indices: 
@@ -1052,7 +1052,7 @@ TextureImporter:
       name: Warehouse_Tileset_Props_7
       rect:
         serializedVersion: 2
-        x: 112
+        x: 192
         y: 240
         width: 16
         height: 16
@@ -1063,7 +1063,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b81eb83aa07f834f923b86a231e8d13
+      spriteID: fa91c788effe6ce4c9f3c56bfe1cccf5
       internalID: -4829778976672771474
       vertices: []
       indices: 
@@ -1073,7 +1073,7 @@ TextureImporter:
       name: Warehouse_Tileset_Props_8
       rect:
         serializedVersion: 2
-        x: 128
+        x: 208
         y: 240
         width: 16
         height: 16
@@ -1084,7 +1084,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8decc995dff949b468fb9269d87b6662
+      spriteID: 624bb091da1fe6247b7b30946b18b022
       internalID: -3976390459592821283
       vertices: []
       indices: 
@@ -1094,7 +1094,7 @@ TextureImporter:
       name: Warehouse_Tileset_Props_9
       rect:
         serializedVersion: 2
-        x: 144
+        x: 224
         y: 240
         width: 16
         height: 16
@@ -1105,7 +1105,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3255ea648e2a20a449e69d965896fa4d
+      spriteID: 0f8eb18d1219cf04abb852870813329c
       internalID: -9198197239856632258
       vertices: []
       indices: 
@@ -1115,7 +1115,7 @@ TextureImporter:
       name: Warehouse_Tileset_Props_10
       rect:
         serializedVersion: 2
-        x: 160
+        x: 240
         y: 240
         width: 16
         height: 16
@@ -1126,7 +1126,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 450e40c4b4c552b439a0da60e7ab1fd7
+      spriteID: 4bf66ad3f35b39e419b7367fe241ebae
       internalID: -185826255015276515
       vertices: []
       indices: 
@@ -1136,8 +1136,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_11
       rect:
         serializedVersion: 2
-        x: 176
-        y: 240
+        x: 0
+        y: 224
         width: 16
         height: 16
       alignment: 0
@@ -1147,7 +1147,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28597bab06557fb4a83d672003db5b0c
+      spriteID: a093349a1c627554693844bfe559b436
       internalID: -1967647819838456288
       vertices: []
       indices: 
@@ -1157,8 +1157,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_12
       rect:
         serializedVersion: 2
-        x: 192
-        y: 240
+        x: 16
+        y: 224
         width: 16
         height: 16
       alignment: 0
@@ -1168,7 +1168,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38fe8d3f0d8ce464189581fcbcee71fb
+      spriteID: fc633e5eaf65e5d4d85781a191b21b46
       internalID: 4973203437129120520
       vertices: []
       indices: 
@@ -1178,8 +1178,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_13
       rect:
         serializedVersion: 2
-        x: 208
-        y: 240
+        x: 32
+        y: 224
         width: 16
         height: 16
       alignment: 0
@@ -1189,7 +1189,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fd46f13d57f17b4090190351d0e683c
+      spriteID: ebc7a3b66af4bf24c88b34caba1abf9d
       internalID: 8091983788492717770
       vertices: []
       indices: 
@@ -1199,8 +1199,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_14
       rect:
         serializedVersion: 2
-        x: 224
-        y: 240
+        x: 64
+        y: 224
         width: 16
         height: 16
       alignment: 0
@@ -1210,7 +1210,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4a97376d8d604d48bf98ead83c754f0
+      spriteID: 74cadeb08a64b024b8bb51c08c9338ea
       internalID: -7409130545260390117
       vertices: []
       indices: 
@@ -1220,8 +1220,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_15
       rect:
         serializedVersion: 2
-        x: 240
-        y: 240
+        x: 80
+        y: 224
         width: 16
         height: 16
       alignment: 0
@@ -1231,7 +1231,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fce48d4c6f3fd442b75ed3c6d6a5ebd
+      spriteID: 5c8159d777ede024eba85358437a3230
       internalID: 4523052614640522474
       vertices: []
       indices: 
@@ -1241,7 +1241,7 @@ TextureImporter:
       name: Warehouse_Tileset_Props_16
       rect:
         serializedVersion: 2
-        x: 0
+        x: 96
         y: 224
         width: 16
         height: 16
@@ -1252,7 +1252,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d31d131513b483408764c8fbb517d7b
+      spriteID: 0d50b57a4167f40428d0144d5ed0dee3
       internalID: -1607783130692814451
       vertices: []
       indices: 
@@ -1262,7 +1262,7 @@ TextureImporter:
       name: Warehouse_Tileset_Props_17
       rect:
         serializedVersion: 2
-        x: 16
+        x: 112
         y: 224
         width: 16
         height: 16
@@ -1273,7 +1273,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d80233cb711239443b33705e4862d9bc
+      spriteID: 77d1c7f53e802dc47b485d27249d4b36
       internalID: -5789953279234248449
       vertices: []
       indices: 
@@ -1283,7 +1283,7 @@ TextureImporter:
       name: Warehouse_Tileset_Props_18
       rect:
         serializedVersion: 2
-        x: 32
+        x: 192
         y: 224
         width: 16
         height: 16
@@ -1294,7 +1294,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b96c1f43ccb2ac743a403ae13722a332
+      spriteID: 5c157c2c74ac64242ac8a01ba5317c60
       internalID: -3004545219405017040
       vertices: []
       indices: 
@@ -1304,7 +1304,7 @@ TextureImporter:
       name: Warehouse_Tileset_Props_19
       rect:
         serializedVersion: 2
-        x: 48
+        x: 208
         y: 224
         width: 16
         height: 16
@@ -1315,7 +1315,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29d02e6abc2dbac4d8aabaee020ab2ae
+      spriteID: f1f96da2055184e4a8611139e87ded99
       internalID: -4644337229989201332
       vertices: []
       indices: 
@@ -1325,7 +1325,7 @@ TextureImporter:
       name: Warehouse_Tileset_Props_20
       rect:
         serializedVersion: 2
-        x: 64
+        x: 224
         y: 224
         width: 16
         height: 16
@@ -1336,7 +1336,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a9da3c9e3c2a4447b2d2a39dfe64b00
+      spriteID: e331ac089dacb804095270945574cd86
       internalID: -7053479544020665874
       vertices: []
       indices: 
@@ -1346,7 +1346,7 @@ TextureImporter:
       name: Warehouse_Tileset_Props_21
       rect:
         serializedVersion: 2
-        x: 80
+        x: 240
         y: 224
         width: 16
         height: 16
@@ -1357,7 +1357,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da963b5d7a584a542909ceb1f77ef320
+      spriteID: a22651a94733ddb468634ff8bc280e48
       internalID: -6404462659943960561
       vertices: []
       indices: 
@@ -1367,8 +1367,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_22
       rect:
         serializedVersion: 2
-        x: 96
-        y: 224
+        x: 0
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -1378,7 +1378,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c633368e714ed48478f9f079b074b54e
+      spriteID: e7f85f2c179c4924183898cfaa20c02b
       internalID: 4737460637957465522
       vertices: []
       indices: 
@@ -1388,8 +1388,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_23
       rect:
         serializedVersion: 2
-        x: 112
-        y: 224
+        x: 16
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -1399,7 +1399,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b4e4170b98df1245972c9795a8a4eb5
+      spriteID: d2f8de86a653bbc41805bd570197c262
       internalID: -8197525810374825225
       vertices: []
       indices: 
@@ -1409,8 +1409,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_24
       rect:
         serializedVersion: 2
-        x: 128
-        y: 224
+        x: 32
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -1420,7 +1420,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb379b03ef9d82c4698a11033268b7ee
+      spriteID: 33dbbe729fae02f41a9b9d49344a61b7
       internalID: 4087026060655147835
       vertices: []
       indices: 
@@ -1430,8 +1430,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_25
       rect:
         serializedVersion: 2
-        x: 144
-        y: 224
+        x: 64
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -1441,7 +1441,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5304f1a3c158ff845989ee9454c1b589
+      spriteID: 09b9c00c810c7d14d8d4464f44a030d1
       internalID: 822008757945331664
       vertices: []
       indices: 
@@ -1451,8 +1451,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_26
       rect:
         serializedVersion: 2
-        x: 160
-        y: 224
+        x: 80
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -1462,7 +1462,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ecae3cff73a5ef4586ed63e6219eee5
+      spriteID: fe56e0e9cea0f924285c2e66fb3cc8a3
       internalID: 5132458822121534697
       vertices: []
       indices: 
@@ -1472,8 +1472,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_27
       rect:
         serializedVersion: 2
-        x: 176
-        y: 224
+        x: 96
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -1483,7 +1483,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eda5b75837aae274e9a1a8c016ef6e45
+      spriteID: a6f3e62be2759bb47bd417d41d8efbd1
       internalID: -111488314419420340
       vertices: []
       indices: 
@@ -1493,8 +1493,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_28
       rect:
         serializedVersion: 2
-        x: 192
-        y: 224
+        x: 112
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -1504,7 +1504,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97c952b505e2ec64b9d7cbbce4cc6e1f
+      spriteID: 1bfc223068b8ddf4d87d42de347a7d08
       internalID: 3825548146069704296
       vertices: []
       indices: 
@@ -1514,8 +1514,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_29
       rect:
         serializedVersion: 2
-        x: 208
-        y: 224
+        x: 192
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -1525,7 +1525,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78154e170db7b4d4baba5659f9c63bf0
+      spriteID: 173c3e0dcbdcb274c95750e94840d9ec
       internalID: -1931133086746376944
       vertices: []
       indices: 
@@ -1535,8 +1535,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_30
       rect:
         serializedVersion: 2
-        x: 224
-        y: 224
+        x: 208
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -1546,7 +1546,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ea56416632d4f748be521fbc9121d3c
+      spriteID: 423bbd0b81d0223428a137f184524972
       internalID: 4024154134869818434
       vertices: []
       indices: 
@@ -1556,8 +1556,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_31
       rect:
         serializedVersion: 2
-        x: 240
-        y: 224
+        x: 224
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -1567,7 +1567,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c67d04c37d786447a6681dc15c0b225
+      spriteID: b59d8f8c6dae4b4489c99990cb2d9b80
       internalID: 7955079786264292729
       vertices: []
       indices: 
@@ -1577,7 +1577,7 @@ TextureImporter:
       name: Warehouse_Tileset_Props_32
       rect:
         serializedVersion: 2
-        x: 0
+        x: 240
         y: 208
         width: 16
         height: 16
@@ -1588,7 +1588,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ea553dc9295d4a40a01628704178f15
+      spriteID: e4292a20e6ad39b46aa35244218dca77
       internalID: 1884014826969969806
       vertices: []
       indices: 
@@ -1598,8 +1598,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_33
       rect:
         serializedVersion: 2
-        x: 16
-        y: 208
+        x: 0
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -1609,7 +1609,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3959a5d09851a574b9e5ddc66d73c447
+      spriteID: 92fb66d715b04c7488e903709e98889f
       internalID: 5892440960837361302
       vertices: []
       indices: 
@@ -1619,8 +1619,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_34
       rect:
         serializedVersion: 2
-        x: 32
-        y: 208
+        x: 16
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -1630,7 +1630,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdc1bee4626ac95499e87c4234a55b63
+      spriteID: 93375d6cfb74be3499a17d092405c268
       internalID: 4087679566165055844
       vertices: []
       indices: 
@@ -1640,8 +1640,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_35
       rect:
         serializedVersion: 2
-        x: 48
-        y: 208
+        x: 32
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -1651,7 +1651,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7540f98a2df7217468638ecc4fb82a3c
+      spriteID: a0e6c5d1ace98694cbd7ead135b12cc9
       internalID: -2437112496113098794
       vertices: []
       indices: 
@@ -1661,8 +1661,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_36
       rect:
         serializedVersion: 2
-        x: 64
-        y: 208
+        x: 48
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -1672,7 +1672,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 440618282a23eba4ead7634dd38567a0
+      spriteID: 002a368229ac80d41add597ef692ee43
       internalID: 2494164498701648602
       vertices: []
       indices: 
@@ -1682,8 +1682,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_37
       rect:
         serializedVersion: 2
-        x: 80
-        y: 208
+        x: 64
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -1693,7 +1693,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7501041be2d3f704a8277c3f72f518e8
+      spriteID: e5c1e5e9be5dd354e9ee3683f3c7f448
       internalID: -8436617334175015428
       vertices: []
       indices: 
@@ -1703,8 +1703,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_38
       rect:
         serializedVersion: 2
-        x: 96
-        y: 208
+        x: 80
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -1714,7 +1714,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84e0f89c9e8361447bf41cedf19773df
+      spriteID: 23818a5782acab149a029af04055f236
       internalID: 8627149520424046719
       vertices: []
       indices: 
@@ -1724,8 +1724,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_39
       rect:
         serializedVersion: 2
-        x: 112
-        y: 208
+        x: 96
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -1735,7 +1735,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11b9142a59b1f3f48b20f4441f917a37
+      spriteID: f38d5be5ca16a544eb70301245607013
       internalID: 1951720911336508940
       vertices: []
       indices: 
@@ -1745,8 +1745,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_40
       rect:
         serializedVersion: 2
-        x: 128
-        y: 208
+        x: 112
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -1756,7 +1756,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7febef8de486e5248b2ba878b607779b
+      spriteID: 79d237663c37c2644bf8a53e658489af
       internalID: 6206941820019126926
       vertices: []
       indices: 
@@ -1766,8 +1766,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_41
       rect:
         serializedVersion: 2
-        x: 144
-        y: 208
+        x: 128
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -1777,7 +1777,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48d930a57894631409431acb07c8e52c
+      spriteID: 5f2243cff5ca0354dab0e46d2dd34739
       internalID: -6060208234055946716
       vertices: []
       indices: 
@@ -1787,8 +1787,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_42
       rect:
         serializedVersion: 2
-        x: 160
-        y: 208
+        x: 144
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -1798,7 +1798,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 514289e37314cf44ea61953ad3b31348
+      spriteID: 35b5143f6c40e884fa3f1b5863ff41ab
       internalID: 9156354123719686427
       vertices: []
       indices: 
@@ -1808,8 +1808,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_43
       rect:
         serializedVersion: 2
-        x: 176
-        y: 208
+        x: 160
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -1819,7 +1819,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef067606c604dc04f825ffde6ab587ba
+      spriteID: 20d60d41183cf3549b5d676bfb895e88
       internalID: 6251453858892164507
       vertices: []
       indices: 
@@ -1829,8 +1829,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_44
       rect:
         serializedVersion: 2
-        x: 192
-        y: 208
+        x: 176
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -1840,7 +1840,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c74c1db125f1df4c8537524c777f822
+      spriteID: 659698f84f98eb1499a76854b0b5c17e
       internalID: -5229150821962954823
       vertices: []
       indices: 
@@ -1850,8 +1850,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_45
       rect:
         serializedVersion: 2
-        x: 208
-        y: 208
+        x: 192
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -1861,7 +1861,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98fb3c4a49e96304aa6b14c115e027e3
+      spriteID: 1104788ade19121459d8bdabf3069ba6
       internalID: -8668032779571930340
       vertices: []
       indices: 
@@ -1871,8 +1871,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_46
       rect:
         serializedVersion: 2
-        x: 224
-        y: 208
+        x: 208
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -1882,7 +1882,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7498a3bcb55959240bdf6059b1be7be7
+      spriteID: 4afe3970a28b81d4d8ca28cc09e654dc
       internalID: 1208570882303974620
       vertices: []
       indices: 
@@ -1892,8 +1892,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_47
       rect:
         serializedVersion: 2
-        x: 240
-        y: 208
+        x: 224
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -1903,7 +1903,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 951b5d4222ef996418718d22f0c113bf
+      spriteID: 4f60bf03b94b5634598ed6d2093afea2
       internalID: -5637700160406970785
       vertices: []
       indices: 
@@ -1913,7 +1913,7 @@ TextureImporter:
       name: Warehouse_Tileset_Props_48
       rect:
         serializedVersion: 2
-        x: 0
+        x: 240
         y: 192
         width: 16
         height: 16
@@ -1924,7 +1924,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99c7948e01b5b8441bfb448be0fb95a4
+      spriteID: bc1fe8da3e6bdce4690a3ebc95804d39
       internalID: -8480771770835359795
       vertices: []
       indices: 
@@ -1934,8 +1934,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_49
       rect:
         serializedVersion: 2
-        x: 16
-        y: 192
+        x: 0
+        y: 176
         width: 16
         height: 16
       alignment: 0
@@ -1945,7 +1945,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b028253937d0f62488b09dbcd973e522
+      spriteID: 9e7c12e73f449e94fb498139f89b09fd
       internalID: 2703426117774689210
       vertices: []
       indices: 
@@ -1955,8 +1955,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_50
       rect:
         serializedVersion: 2
-        x: 32
-        y: 192
+        x: 16
+        y: 176
         width: 16
         height: 16
       alignment: 0
@@ -1966,7 +1966,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f763d837b6c9f547ba073c5b1618ab8
+      spriteID: 08ae16620391dc84882e6314b52a8c35
       internalID: 3525417980289507549
       vertices: []
       indices: 
@@ -1976,8 +1976,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_51
       rect:
         serializedVersion: 2
-        x: 48
-        y: 192
+        x: 32
+        y: 176
         width: 16
         height: 16
       alignment: 0
@@ -1987,7 +1987,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95f749f0c5b305541b8cbaae4c37adc7
+      spriteID: 54c5f85cb858ed9409df65656361b860
       internalID: -559977885773234997
       vertices: []
       indices: 
@@ -1997,8 +1997,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_52
       rect:
         serializedVersion: 2
-        x: 64
-        y: 192
+        x: 48
+        y: 176
         width: 16
         height: 16
       alignment: 0
@@ -2008,7 +2008,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9db84f4a68751f0408b4fd7ca4de407b
+      spriteID: 3f53116a208f4e245b3176c704b9517e
       internalID: 3756689397628831925
       vertices: []
       indices: 
@@ -2018,8 +2018,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_53
       rect:
         serializedVersion: 2
-        x: 80
-        y: 192
+        x: 64
+        y: 176
         width: 16
         height: 16
       alignment: 0
@@ -2029,7 +2029,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 570a5eff24ff87d4b9ef010e063b62fc
+      spriteID: 1bc88141221f1024faba2d340ad8a60b
       internalID: 2320600940926459639
       vertices: []
       indices: 
@@ -2039,8 +2039,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_54
       rect:
         serializedVersion: 2
-        x: 96
-        y: 192
+        x: 80
+        y: 176
         width: 16
         height: 16
       alignment: 0
@@ -2050,7 +2050,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44562fc303e1e8e42be377501938d9a6
+      spriteID: 24e1eb7c50947f44ca2f38059f444a98
       internalID: -6495071025072542292
       vertices: []
       indices: 
@@ -2060,8 +2060,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_55
       rect:
         serializedVersion: 2
-        x: 112
-        y: 192
+        x: 96
+        y: 176
         width: 16
         height: 16
       alignment: 0
@@ -2071,7 +2071,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2256508aece3e641990d74c9b208b0e
+      spriteID: 214b0b2520d538e47b07d8ee9af4eade
       internalID: -6262596305994083828
       vertices: []
       indices: 
@@ -2081,8 +2081,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_56
       rect:
         serializedVersion: 2
-        x: 128
-        y: 192
+        x: 112
+        y: 176
         width: 16
         height: 16
       alignment: 0
@@ -2092,7 +2092,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 999072c7e2bfa73438850179634e38b3
+      spriteID: e761be7c7fe632a4698e3c548fe7e13f
       internalID: 2937503348652706613
       vertices: []
       indices: 
@@ -2102,8 +2102,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_57
       rect:
         serializedVersion: 2
-        x: 144
-        y: 192
+        x: 128
+        y: 176
         width: 16
         height: 16
       alignment: 0
@@ -2113,7 +2113,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5faf3a46aa106cc4c8a7971785e6736e
+      spriteID: 421c3380c7145b94eadded03725fecf2
       internalID: 4676372767472723670
       vertices: []
       indices: 
@@ -2123,8 +2123,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_58
       rect:
         serializedVersion: 2
-        x: 160
-        y: 192
+        x: 144
+        y: 176
         width: 16
         height: 16
       alignment: 0
@@ -2134,7 +2134,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d37948015a7556248a89a8b9a76e6a4a
+      spriteID: 118a9df6c6e5cba4982537e32daf768c
       internalID: -5037342786493834283
       vertices: []
       indices: 
@@ -2144,8 +2144,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_59
       rect:
         serializedVersion: 2
-        x: 176
-        y: 192
+        x: 160
+        y: 176
         width: 16
         height: 16
       alignment: 0
@@ -2155,7 +2155,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c39afa57cb736284d825147a5573679c
+      spriteID: db3a09f59faf6db4181a8c42700674a6
       internalID: -6267026122691692728
       vertices: []
       indices: 
@@ -2165,8 +2165,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_60
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
+        x: 176
+        y: 176
         width: 16
         height: 16
       alignment: 0
@@ -2176,7 +2176,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d6576aebbf9c494bb377203ba3eb8f0
+      spriteID: 2a92cc2834760fe43be421380baa8a31
       internalID: 1047825272290546910
       vertices: []
       indices: 
@@ -2186,8 +2186,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_61
       rect:
         serializedVersion: 2
-        x: 208
-        y: 192
+        x: 192
+        y: 176
         width: 16
         height: 16
       alignment: 0
@@ -2197,7 +2197,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d641a8d3cbc58f4093bda84ae8600fd
+      spriteID: fc5745786aedbfb46b375ad8373f2605
       internalID: -1478752516906447927
       vertices: []
       indices: 
@@ -2207,8 +2207,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_62
       rect:
         serializedVersion: 2
-        x: 224
-        y: 192
+        x: 208
+        y: 176
         width: 16
         height: 16
       alignment: 0
@@ -2218,7 +2218,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18b5ddc4b843bd24c8a9cda89c2400fe
+      spriteID: d18b79eb9899e5f4ea7c03e1a1f681cf
       internalID: -8051676162583601168
       vertices: []
       indices: 
@@ -2228,8 +2228,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_63
       rect:
         serializedVersion: 2
-        x: 240
-        y: 192
+        x: 224
+        y: 176
         width: 16
         height: 16
       alignment: 0
@@ -2239,7 +2239,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 749222c6e81245a4ebe4bab2ad48aa52
+      spriteID: 08ea5b9209b727c4d8254ed8ad790b24
       internalID: 4033309744573275476
       vertices: []
       indices: 
@@ -2249,7 +2249,7 @@ TextureImporter:
       name: Warehouse_Tileset_Props_64
       rect:
         serializedVersion: 2
-        x: 0
+        x: 240
         y: 176
         width: 16
         height: 16
@@ -2260,7 +2260,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b60c66cdbbbe8b4db5ba29904bebcf1
+      spriteID: ce49c33a331ac0f4692ddc2c90647db8
       internalID: 6167990704056052102
       vertices: []
       indices: 
@@ -2270,8 +2270,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_65
       rect:
         serializedVersion: 2
-        x: 16
-        y: 176
+        x: 0
+        y: 160
         width: 16
         height: 16
       alignment: 0
@@ -2281,7 +2281,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2bbdecfcb0042143ab06352ccd6fa5a
+      spriteID: 3a5d6f21cd8fac34ab08e02e0ba6050a
       internalID: 6914835525083997269
       vertices: []
       indices: 
@@ -2291,8 +2291,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_66
       rect:
         serializedVersion: 2
-        x: 32
-        y: 176
+        x: 16
+        y: 160
         width: 16
         height: 16
       alignment: 0
@@ -2302,7 +2302,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95478178a33a01449838f583c530ec3c
+      spriteID: 30d63bbfd8486c44a99f1ddbb0b18c58
       internalID: 2206854329051847440
       vertices: []
       indices: 
@@ -2312,8 +2312,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_67
       rect:
         serializedVersion: 2
-        x: 48
-        y: 176
+        x: 32
+        y: 160
         width: 16
         height: 16
       alignment: 0
@@ -2323,7 +2323,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc1bca527481d8149bfc0e1fc62f9f1f
+      spriteID: aa767236c30e71246969f2583fd7afca
       internalID: 546294129816671906
       vertices: []
       indices: 
@@ -2333,8 +2333,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_68
       rect:
         serializedVersion: 2
-        x: 64
-        y: 176
+        x: 48
+        y: 160
         width: 16
         height: 16
       alignment: 0
@@ -2344,7 +2344,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bef34952d87826e4fa2af127e00bfc42
+      spriteID: bc6271b7dc733e24fb9cd16702f510a4
       internalID: -4403920161693763520
       vertices: []
       indices: 
@@ -2354,8 +2354,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_69
       rect:
         serializedVersion: 2
-        x: 80
-        y: 176
+        x: 64
+        y: 160
         width: 16
         height: 16
       alignment: 0
@@ -2365,7 +2365,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6574009fdc9b6ae4eb7d15386cc49a1c
+      spriteID: e5e5049a6c9b2164d817f8590bdf6d83
       internalID: -159894302263412716
       vertices: []
       indices: 
@@ -2375,8 +2375,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_70
       rect:
         serializedVersion: 2
-        x: 96
-        y: 176
+        x: 80
+        y: 160
         width: 16
         height: 16
       alignment: 0
@@ -2386,7 +2386,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 578482c54dd657b44a76d10223229a31
+      spriteID: 5b2c24ab347c4ed489431482cb1cbd57
       internalID: -5490455790470183558
       vertices: []
       indices: 
@@ -2396,8 +2396,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_71
       rect:
         serializedVersion: 2
-        x: 112
-        y: 176
+        x: 96
+        y: 160
         width: 16
         height: 16
       alignment: 0
@@ -2407,7 +2407,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0faf505137860c04f9073704a862d753
+      spriteID: 30d3c3508a2c9294da77f79ed7c90f47
       internalID: 4995144214354263819
       vertices: []
       indices: 
@@ -2417,8 +2417,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_72
       rect:
         serializedVersion: 2
-        x: 128
-        y: 176
+        x: 112
+        y: 160
         width: 16
         height: 16
       alignment: 0
@@ -2428,7 +2428,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94314424c02b0ee4bb2b09d5e42da90c
+      spriteID: 3a292b91e7695fe4fa5d39fe4230329a
       internalID: -1470105257169358819
       vertices: []
       indices: 
@@ -2438,8 +2438,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_73
       rect:
         serializedVersion: 2
-        x: 144
-        y: 176
+        x: 128
+        y: 160
         width: 16
         height: 16
       alignment: 0
@@ -2449,7 +2449,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1b918d7ad97a794aa748fae7f976437
+      spriteID: f27f995a828bc444a8f56dc905a402d9
       internalID: 5901291945763554669
       vertices: []
       indices: 
@@ -2459,8 +2459,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_74
       rect:
         serializedVersion: 2
-        x: 160
-        y: 176
+        x: 144
+        y: 160
         width: 16
         height: 16
       alignment: 0
@@ -2470,7 +2470,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e95923f683e776c438cb31fc325e3d3d
+      spriteID: f55f2c7a8275fb241bc276e395f97f27
       internalID: -5512313450923528937
       vertices: []
       indices: 
@@ -2480,8 +2480,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_75
       rect:
         serializedVersion: 2
-        x: 176
-        y: 176
+        x: 160
+        y: 160
         width: 16
         height: 16
       alignment: 0
@@ -2491,7 +2491,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b5166de3ace3ec42afee2359e60acee
+      spriteID: 0c6d4271f91cf6648b2ef578ac8ad814
       internalID: -9120970699048614083
       vertices: []
       indices: 
@@ -2501,8 +2501,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_76
       rect:
         serializedVersion: 2
-        x: 192
-        y: 176
+        x: 176
+        y: 160
         width: 16
         height: 16
       alignment: 0
@@ -2512,7 +2512,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8844be67b72735648a38889092d93f84
+      spriteID: 416f969e79fde474994a66125078e18b
       internalID: -7288099672874117742
       vertices: []
       indices: 
@@ -2522,8 +2522,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_77
       rect:
         serializedVersion: 2
-        x: 208
-        y: 176
+        x: 192
+        y: 160
         width: 16
         height: 16
       alignment: 0
@@ -2533,7 +2533,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d397adc43dbf3f468b12d7f6a11ede8
+      spriteID: 50c84c11eff42c24daaebe6c6b9c00cb
       internalID: -1438379175781964939
       vertices: []
       indices: 
@@ -2543,8 +2543,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_78
       rect:
         serializedVersion: 2
-        x: 224
-        y: 176
+        x: 208
+        y: 160
         width: 16
         height: 16
       alignment: 0
@@ -2554,7 +2554,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54467bb19f470b841b07c83391336fa3
+      spriteID: 18c1796949ae5b34ba6ff0226c7313ac
       internalID: -4560666615668284276
       vertices: []
       indices: 
@@ -2564,8 +2564,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_79
       rect:
         serializedVersion: 2
-        x: 240
-        y: 176
+        x: 224
+        y: 160
         width: 16
         height: 16
       alignment: 0
@@ -2575,7 +2575,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75ff691d312f58c49b7a9f622fa6eb7e
+      spriteID: 43c4b4d0e16705545ae8ef3808b46a4b
       internalID: -3955388516480836353
       vertices: []
       indices: 
@@ -2585,7 +2585,7 @@ TextureImporter:
       name: Warehouse_Tileset_Props_80
       rect:
         serializedVersion: 2
-        x: 0
+        x: 240
         y: 160
         width: 16
         height: 16
@@ -2596,7 +2596,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e039b078c7060984ea5e63ce73bee448
+      spriteID: fd14203424d94c34fa0dccac3fd76f4e
       internalID: -2990113594286508481
       vertices: []
       indices: 
@@ -2606,8 +2606,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_81
       rect:
         serializedVersion: 2
-        x: 16
-        y: 160
+        x: 0
+        y: 144
         width: 16
         height: 16
       alignment: 0
@@ -2617,7 +2617,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1879889306e6c1747b8e7470492fd0b6
+      spriteID: 0937cce5eb56be74f86bba1663612578
       internalID: 8034301661869891803
       vertices: []
       indices: 
@@ -2627,8 +2627,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_82
       rect:
         serializedVersion: 2
-        x: 32
-        y: 160
+        x: 16
+        y: 144
         width: 16
         height: 16
       alignment: 0
@@ -2638,7 +2638,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d425e4936cb01724fa9a94f0c43d239e
+      spriteID: 0f7cce8bc3e51d749b8173ab3ab7a648
       internalID: -6714977014998752185
       vertices: []
       indices: 
@@ -2648,8 +2648,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_83
       rect:
         serializedVersion: 2
-        x: 48
-        y: 160
+        x: 32
+        y: 144
         width: 16
         height: 16
       alignment: 0
@@ -2659,7 +2659,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76b01c1e8b4aa0a4199065c5130d3299
+      spriteID: 7be072dedcde86044bb481456d1493c4
       internalID: 6845492420740244603
       vertices: []
       indices: 
@@ -2669,8 +2669,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_84
       rect:
         serializedVersion: 2
-        x: 64
-        y: 160
+        x: 48
+        y: 144
         width: 16
         height: 16
       alignment: 0
@@ -2680,7 +2680,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6bcd42dc728b1b45a7a993875e58b99
+      spriteID: 2c1bdc07b8c895643b96532fcd26ae2c
       internalID: 2078329953287208135
       vertices: []
       indices: 
@@ -2690,8 +2690,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_85
       rect:
         serializedVersion: 2
-        x: 80
-        y: 160
+        x: 64
+        y: 144
         width: 16
         height: 16
       alignment: 0
@@ -2701,7 +2701,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 251312c5e123eab41be7185d3a18575e
+      spriteID: 16d589676e481e045ac7a64a85b94cb1
       internalID: 7427648615237066639
       vertices: []
       indices: 
@@ -2711,8 +2711,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_86
       rect:
         serializedVersion: 2
-        x: 96
-        y: 160
+        x: 80
+        y: 144
         width: 16
         height: 16
       alignment: 0
@@ -2722,7 +2722,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab353fb1453f10444804a5fbffa9497b
+      spriteID: 8bbc93711b0b0bb41933d4715496d77e
       internalID: -8214469408089472119
       vertices: []
       indices: 
@@ -2732,8 +2732,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_87
       rect:
         serializedVersion: 2
-        x: 112
-        y: 160
+        x: 96
+        y: 144
         width: 16
         height: 16
       alignment: 0
@@ -2743,7 +2743,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa376b5c691500d4997345a1c45f1b4d
+      spriteID: 2a37735f2a0358f4cbbc8a3bb23b4ef0
       internalID: -120631419640152913
       vertices: []
       indices: 
@@ -2753,8 +2753,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_88
       rect:
         serializedVersion: 2
-        x: 128
-        y: 160
+        x: 112
+        y: 144
         width: 16
         height: 16
       alignment: 0
@@ -2764,7 +2764,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78671361f7563ac4096c6a0ed132bce3
+      spriteID: eba74eca37c79a6488b7a8196aa7c2fc
       internalID: 7980010978235680831
       vertices: []
       indices: 
@@ -2774,8 +2774,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_89
       rect:
         serializedVersion: 2
-        x: 144
-        y: 160
+        x: 128
+        y: 144
         width: 16
         height: 16
       alignment: 0
@@ -2785,7 +2785,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7274d7bb1f61a4d40bf938dfcde5ccab
+      spriteID: c3c4c83a5df2b0c4ab745191e712c71b
       internalID: 701098236135808011
       vertices: []
       indices: 
@@ -2795,8 +2795,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_90
       rect:
         serializedVersion: 2
-        x: 160
-        y: 160
+        x: 144
+        y: 144
         width: 16
         height: 16
       alignment: 0
@@ -2806,7 +2806,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcc28f9e9074e094fb7ad1b06af7b419
+      spriteID: 8317f73feb3f5794c870a88402054f56
       internalID: 4664351632970317013
       vertices: []
       indices: 
@@ -2816,8 +2816,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_91
       rect:
         serializedVersion: 2
-        x: 176
-        y: 160
+        x: 160
+        y: 144
         width: 16
         height: 16
       alignment: 0
@@ -2827,7 +2827,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 529c01a2106b67549b8b3d89984f3716
+      spriteID: 79ef226d80f0e3246955722d45af2ccc
       internalID: 4652179961923364003
       vertices: []
       indices: 
@@ -2837,8 +2837,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_92
       rect:
         serializedVersion: 2
-        x: 192
-        y: 160
+        x: 176
+        y: 144
         width: 16
         height: 16
       alignment: 0
@@ -2848,7 +2848,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a9f28a4bd60ea1458e14f9e5789c16f
+      spriteID: 24158d392bf572e4ca9c221b4c0432d1
       internalID: -5033900943067342046
       vertices: []
       indices: 
@@ -2858,8 +2858,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_93
       rect:
         serializedVersion: 2
-        x: 208
-        y: 160
+        x: 192
+        y: 144
         width: 16
         height: 16
       alignment: 0
@@ -2869,7 +2869,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35b7f2da06c5a3e4eb6bef4a55ef5c97
+      spriteID: 261f67fe283387749887390c709722f5
       internalID: -2008743253968122044
       vertices: []
       indices: 
@@ -2879,8 +2879,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_94
       rect:
         serializedVersion: 2
-        x: 224
-        y: 160
+        x: 208
+        y: 144
         width: 16
         height: 16
       alignment: 0
@@ -2890,7 +2890,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c968b84c2987aa40af3cef82171512c
+      spriteID: 474cf00473d7502499916a0159de2596
       internalID: -3046010013651655493
       vertices: []
       indices: 
@@ -2900,8 +2900,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_95
       rect:
         serializedVersion: 2
-        x: 240
-        y: 160
+        x: 224
+        y: 144
         width: 16
         height: 16
       alignment: 0
@@ -2911,7 +2911,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c4001980502bf24abd246b009188b46
+      spriteID: 044f0a05a4333204084d95802fe41cdb
       internalID: 2972332435725213827
       vertices: []
       indices: 
@@ -2921,7 +2921,7 @@ TextureImporter:
       name: Warehouse_Tileset_Props_96
       rect:
         serializedVersion: 2
-        x: 0
+        x: 240
         y: 144
         width: 16
         height: 16
@@ -2932,7 +2932,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f696404c42f2994b99a94ce6f72e848
+      spriteID: 80077bfbe6e1728458a7973ecfa763fd
       internalID: -8647098057390177501
       vertices: []
       indices: 
@@ -2942,8 +2942,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_97
       rect:
         serializedVersion: 2
-        x: 16
-        y: 144
+        x: 0
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -2953,7 +2953,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f83685cf3ffdbe45adacd889dd4ebde
+      spriteID: a6129e7ed7c66034f8b2ef46bb5ba1b4
       internalID: -8319691729626765565
       vertices: []
       indices: 
@@ -2963,8 +2963,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_98
       rect:
         serializedVersion: 2
-        x: 32
-        y: 144
+        x: 16
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -2974,7 +2974,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9919dffc2b2b4a94e8618b2df3500b90
+      spriteID: c6d7edaf1ee7032488732fb332c2e20d
       internalID: -4723987614398915003
       vertices: []
       indices: 
@@ -2984,8 +2984,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_99
       rect:
         serializedVersion: 2
-        x: 48
-        y: 144
+        x: 32
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -2995,7 +2995,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f87b773d9342a14439e966bf77c34f5c
+      spriteID: 62acfa36eff64c24490b53b66552cf5e
       internalID: 6494237339385541856
       vertices: []
       indices: 
@@ -3005,8 +3005,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_100
       rect:
         serializedVersion: 2
-        x: 64
-        y: 144
+        x: 48
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -3016,7 +3016,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3e3e2f402e4c93439df2b3b47f00c70
+      spriteID: 9d977669197eb6940b00c9c4c57c3aa3
       internalID: 1669465022693623912
       vertices: []
       indices: 
@@ -3026,8 +3026,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_101
       rect:
         serializedVersion: 2
-        x: 80
-        y: 144
+        x: 64
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -3037,7 +3037,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f02d4d8f282dbc8409bd1fe1ad424873
+      spriteID: 1f99bb4e166e97746825322c75a0d5d9
       internalID: -5186222179907675654
       vertices: []
       indices: 
@@ -3047,8 +3047,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_102
       rect:
         serializedVersion: 2
-        x: 96
-        y: 144
+        x: 80
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -3058,7 +3058,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a8ea4101f48ed6428d24ea05873f59a
+      spriteID: 31c6ebf5054b1084c95606430cbcc0a2
       internalID: -3504231968460415979
       vertices: []
       indices: 
@@ -3068,8 +3068,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_103
       rect:
         serializedVersion: 2
-        x: 112
-        y: 144
+        x: 96
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -3079,7 +3079,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0cafd932b4aad845b14cb526c647575
+      spriteID: 5e1efdee3929cf24ca81642d92c47cc5
       internalID: 9099241297689867200
       vertices: []
       indices: 
@@ -3089,8 +3089,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_104
       rect:
         serializedVersion: 2
-        x: 128
-        y: 144
+        x: 112
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -3100,7 +3100,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a4f036fcab0a314ab5bee21ead95268
+      spriteID: 26f2fa21d83975c46bd7f6052d5e48bb
       internalID: 6965511566656844431
       vertices: []
       indices: 
@@ -3110,8 +3110,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_105
       rect:
         serializedVersion: 2
-        x: 144
-        y: 144
+        x: 128
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -3121,7 +3121,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 887d23bc44ed1e74bbcfd1a7eb27d8c2
+      spriteID: 7e5de65b6bb80414b98c83652d81fa99
       internalID: -5172850472861875606
       vertices: []
       indices: 
@@ -3131,8 +3131,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_106
       rect:
         serializedVersion: 2
-        x: 160
-        y: 144
+        x: 144
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -3142,7 +3142,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a78422cfbc82974ea4a348edb6f8cd4
+      spriteID: 561e9f874a678814690636e21ad63f6e
       internalID: 8351883159348834716
       vertices: []
       indices: 
@@ -3152,8 +3152,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_107
       rect:
         serializedVersion: 2
-        x: 176
-        y: 144
+        x: 160
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -3163,7 +3163,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90bed677d23104945b5e9a236bdfc288
+      spriteID: 9c67d7133eefbb64c91ab599819d932d
       internalID: -426534967319310297
       vertices: []
       indices: 
@@ -3173,8 +3173,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_108
       rect:
         serializedVersion: 2
-        x: 192
-        y: 144
+        x: 176
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -3184,7 +3184,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a356b74ca2961d4b9dccf5b8259fd0a
+      spriteID: d5c8e698908a0524ba3bfda92c03e699
       internalID: -2019939753582062333
       vertices: []
       indices: 
@@ -3194,8 +3194,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_109
       rect:
         serializedVersion: 2
-        x: 208
-        y: 144
+        x: 192
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -3205,7 +3205,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb0be96826022f544a10446a577586f9
+      spriteID: 0fa0288ea573d0c4bab8d9eedf2c0cb3
       internalID: -1522548577806489253
       vertices: []
       indices: 
@@ -3215,8 +3215,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_110
       rect:
         serializedVersion: 2
-        x: 224
-        y: 144
+        x: 208
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -3226,7 +3226,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03487c52d846f594eaf15d0a18074766
+      spriteID: 9c361d1e3aaff6142a64c2e29b8a0ee1
       internalID: -1151007864930741070
       vertices: []
       indices: 
@@ -3236,8 +3236,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_111
       rect:
         serializedVersion: 2
-        x: 240
-        y: 144
+        x: 224
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -3247,7 +3247,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22719ec2cccd9bd4ba329a1ccd27ac7a
+      spriteID: 078e9e5902bde6d4094d1e01a1b1f15f
       internalID: 1079504551966699782
       vertices: []
       indices: 
@@ -3257,7 +3257,7 @@ TextureImporter:
       name: Warehouse_Tileset_Props_112
       rect:
         serializedVersion: 2
-        x: 0
+        x: 240
         y: 128
         width: 16
         height: 16
@@ -3268,7 +3268,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48b1a661b47bcd94390355b5324e5a32
+      spriteID: 351f5b8ce66cc92468d1195d1795a522
       internalID: 8804846760713898062
       vertices: []
       indices: 
@@ -3278,8 +3278,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_113
       rect:
         serializedVersion: 2
-        x: 16
-        y: 128
+        x: 0
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -3289,7 +3289,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b4d8a2d2e3597242bc3a1e030b5782f
+      spriteID: 2a4a46409fc717c4783849d984ad4230
       internalID: 1046600116168226488
       vertices: []
       indices: 
@@ -3299,8 +3299,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_114
       rect:
         serializedVersion: 2
-        x: 32
-        y: 128
+        x: 16
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -3310,7 +3310,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a384b1879140cf14280def6080cc3b2f
+      spriteID: 6df60996f9598cd47b893fea1a76a2d5
       internalID: 1635553198837104744
       vertices: []
       indices: 
@@ -3320,8 +3320,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_115
       rect:
         serializedVersion: 2
-        x: 48
-        y: 128
+        x: 32
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -3331,7 +3331,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b7b355c6bd698643b881332daf2cda8
+      spriteID: 24331b4dbbe2f44408d7c58ca99a86a6
       internalID: 6704998819640703372
       vertices: []
       indices: 
@@ -3341,8 +3341,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_116
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
+        x: 48
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -3352,7 +3352,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f0d5c2c6f89fb743a750acbcb54b2fa
+      spriteID: a40caa451c2838a4da662031612a86ae
       internalID: -9162134958990254858
       vertices: []
       indices: 
@@ -3362,8 +3362,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_117
       rect:
         serializedVersion: 2
-        x: 80
-        y: 128
+        x: 64
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -3373,7 +3373,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18352c8413f8f5f4e9e38003fb080535
+      spriteID: 39f9b487a35e2b844a82f0af1fe2757c
       internalID: -143226122216988779
       vertices: []
       indices: 
@@ -3383,8 +3383,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_118
       rect:
         serializedVersion: 2
-        x: 96
-        y: 128
+        x: 80
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -3394,7 +3394,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 341c1be005c012845905f9b2ea132fa9
+      spriteID: 42a8565db7f0296409e90c18a0d03a8e
       internalID: -3143909851949194731
       vertices: []
       indices: 
@@ -3404,8 +3404,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_119
       rect:
         serializedVersion: 2
-        x: 112
-        y: 128
+        x: 96
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -3415,7 +3415,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 869d31faee32ea84aa49dee3c39dcab0
+      spriteID: 67d225cdeabbbef4b8baaaf82501c52e
       internalID: 4303174540979167890
       vertices: []
       indices: 
@@ -3425,8 +3425,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_120
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
+        x: 112
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -3436,7 +3436,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ce86cbd4675fce48be6e78462b681be
+      spriteID: 0e8f50712e45957499ae12844eeb4011
       internalID: -5543521774399262231
       vertices: []
       indices: 
@@ -3446,8 +3446,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_121
       rect:
         serializedVersion: 2
-        x: 144
-        y: 128
+        x: 128
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -3457,7 +3457,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e81e21c7c78313a4c94d0a73cc21e00a
+      spriteID: 59155ef7e59014546be488b35e414e67
       internalID: -1884358330248081703
       vertices: []
       indices: 
@@ -3467,8 +3467,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_122
       rect:
         serializedVersion: 2
-        x: 160
-        y: 128
+        x: 144
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -3478,7 +3478,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c55786b2cc9c954f8d85e5ed37c1101
+      spriteID: a6c80f132a1bb484687504d9a8d51326
       internalID: 1181543878174043003
       vertices: []
       indices: 
@@ -3488,8 +3488,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_123
       rect:
         serializedVersion: 2
-        x: 176
-        y: 128
+        x: 160
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -3499,7 +3499,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 003c7e3d24ebefb4d876272110537b74
+      spriteID: c8c3fc882bcc07a45a85fc6c7c05f100
       internalID: 6084070693075676058
       vertices: []
       indices: 
@@ -3509,8 +3509,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_124
       rect:
         serializedVersion: 2
-        x: 192
-        y: 128
+        x: 176
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -3520,7 +3520,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a81513a8af7249e47a2577cc0c5b2192
+      spriteID: 53da39f3027dc5d4f9248e67d0cdc843
       internalID: -8630085202058760317
       vertices: []
       indices: 
@@ -3530,8 +3530,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_125
       rect:
         serializedVersion: 2
-        x: 208
-        y: 128
+        x: 192
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -3541,7 +3541,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb245f18fa72cc94c948c36f3317a05d
+      spriteID: adc1d3cb37b0f7b41b61ae42691a951a
       internalID: 1285219432933866791
       vertices: []
       indices: 
@@ -3551,8 +3551,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_126
       rect:
         serializedVersion: 2
-        x: 224
-        y: 128
+        x: 208
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -3562,7 +3562,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3e713307c01ca64ab2821654bee5649
+      spriteID: 602e2375adf1c5e47a58ea598140ab8b
       internalID: -3153455041976141283
       vertices: []
       indices: 
@@ -3572,8 +3572,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_127
       rect:
         serializedVersion: 2
-        x: 240
-        y: 128
+        x: 224
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -3583,7 +3583,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a52ece889bfe3ad4fbaa8bb55750d826
+      spriteID: 1fd12e7342df18149bed98aa46153baa
       internalID: 6814284875734099664
       vertices: []
       indices: 
@@ -3593,7 +3593,7 @@ TextureImporter:
       name: Warehouse_Tileset_Props_128
       rect:
         serializedVersion: 2
-        x: 0
+        x: 240
         y: 112
         width: 16
         height: 16
@@ -3604,7 +3604,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d50c00ffa2319414a8c57ae1a5a089b2
+      spriteID: 85c48f8e3a139dd48b2a9b80778451ab
       internalID: 3356164513173821101
       vertices: []
       indices: 
@@ -3614,8 +3614,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_129
       rect:
         serializedVersion: 2
-        x: 16
-        y: 112
+        x: 0
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -3625,7 +3625,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9b96f0c29bb7d944ac4c7cada8b7d6d
+      spriteID: 421e2a7449adf004494ebe46f787e571
       internalID: -1450226711813865147
       vertices: []
       indices: 
@@ -3635,8 +3635,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_130
       rect:
         serializedVersion: 2
-        x: 32
-        y: 112
+        x: 16
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -3646,7 +3646,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4efb57b953676d54898ef00a0c3342e4
+      spriteID: 7f209a2ab312b9943b366c0094b2a836
       internalID: 217685302873105212
       vertices: []
       indices: 
@@ -3656,8 +3656,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_131
       rect:
         serializedVersion: 2
-        x: 48
-        y: 112
+        x: 64
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -3667,7 +3667,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8de536e1bea83649ba40af55f980e9b
+      spriteID: a75e266d198e765429c59b8c664d30de
       internalID: -1881691378086506672
       vertices: []
       indices: 
@@ -3677,8 +3677,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_132
       rect:
         serializedVersion: 2
-        x: 64
-        y: 112
+        x: 80
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -3688,7 +3688,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 575f0a89264cc3447a419f8126249b6d
+      spriteID: f00f228e399189e49b6493f84e2a249a
       internalID: -5442652210381553819
       vertices: []
       indices: 
@@ -3698,8 +3698,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_133
       rect:
         serializedVersion: 2
-        x: 80
-        y: 112
+        x: 96
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -3709,7 +3709,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8257355e185d99f4c815fd3503f5c818
+      spriteID: 703880f7bb78a8e48b91748d1ee0d971
       internalID: 6072375662428184430
       vertices: []
       indices: 
@@ -3719,8 +3719,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_134
       rect:
         serializedVersion: 2
-        x: 96
-        y: 112
+        x: 112
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -3730,7 +3730,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 339f202aa1e710e41908a722129bfef5
+      spriteID: 4f1f70f933db8b040834c914401f9479
       internalID: -3278023582916583595
       vertices: []
       indices: 
@@ -3740,8 +3740,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_135
       rect:
         serializedVersion: 2
-        x: 112
-        y: 112
+        x: 192
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -3751,7 +3751,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6037f05c142335b429a2b504cf363dbf
+      spriteID: a138f5877bce62f4ab403bbbd9bb6049
       internalID: 8870106450989692973
       vertices: []
       indices: 
@@ -3761,8 +3761,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_136
       rect:
         serializedVersion: 2
-        x: 128
-        y: 112
+        x: 208
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -3772,7 +3772,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcf356896216ced44b078e45dc4f3ec2
+      spriteID: abb4f8d78b6063e4aabb3c0f316eabcf
       internalID: 8216337222688183192
       vertices: []
       indices: 
@@ -3782,8 +3782,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_137
       rect:
         serializedVersion: 2
-        x: 144
-        y: 112
+        x: 224
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -3793,7 +3793,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c90570365c6a99f4fbbec5a71f75f729
+      spriteID: e8e1a23860d7c014fa8b757fda642581
       internalID: 1614075459083225941
       vertices: []
       indices: 
@@ -3803,8 +3803,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_138
       rect:
         serializedVersion: 2
-        x: 160
-        y: 112
+        x: 240
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -3814,7 +3814,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e18285939b0495040a9896ca82fedc50
+      spriteID: 051181b3309d94d45a7b4399fe245b83
       internalID: 4851573389653295407
       vertices: []
       indices: 
@@ -3824,8 +3824,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_139
       rect:
         serializedVersion: 2
-        x: 176
-        y: 112
+        x: 0
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -3835,7 +3835,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c27dc5917cf21d84d934bce1b15e5116
+      spriteID: 9f853af214c3bdd4aa8a7ad8f1037983
       internalID: 86335352095543782
       vertices: []
       indices: 
@@ -3845,8 +3845,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_140
       rect:
         serializedVersion: 2
-        x: 192
-        y: 112
+        x: 16
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -3856,7 +3856,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b925d51ef52d57488bf2281d4e72db6
+      spriteID: ae0a9a23ec1422a49b10a769b7751fba
       internalID: 7521076921431344410
       vertices: []
       indices: 
@@ -3866,8 +3866,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_141
       rect:
         serializedVersion: 2
-        x: 208
-        y: 112
+        x: 32
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -3877,7 +3877,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 479c36b1eb1b21f4a9f5c3ba412a2f8b
+      spriteID: d60fadc3f152f02419eba44bb9e3917a
       internalID: -6578252878011066663
       vertices: []
       indices: 
@@ -3887,8 +3887,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_142
       rect:
         serializedVersion: 2
-        x: 224
-        y: 112
+        x: 64
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -3898,7 +3898,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7fd53fe4d3ad46468916c06e3061808
+      spriteID: bce35074fbd8b1845888849326f98b4a
       internalID: -6412548981056580026
       vertices: []
       indices: 
@@ -3908,8 +3908,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_143
       rect:
         serializedVersion: 2
-        x: 240
-        y: 112
+        x: 80
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -3919,7 +3919,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc8a68f9d0b3fde4ea34267cd28e33a0
+      spriteID: bcc8a576389d3b947835cfdead21b2e3
       internalID: -1455441820345264344
       vertices: []
       indices: 
@@ -3929,8 +3929,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_144
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
+        x: 96
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -3940,7 +3940,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20f40c3341d8c2644868dbff95525822
+      spriteID: 62a3e7247d8a7154087a986d3722f7ac
       internalID: 329264265122413502
       vertices: []
       indices: 
@@ -3950,8 +3950,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_145
       rect:
         serializedVersion: 2
-        x: 16
-        y: 96
+        x: 112
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -3961,7 +3961,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47ad2a7e455dac84a8037cce2ea1aa0b
+      spriteID: 129b6342b445cfe4087b87d95e752014
       internalID: -3864388751166393190
       vertices: []
       indices: 
@@ -3971,8 +3971,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_146
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
+        x: 192
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -3982,7 +3982,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a7eb8626887e3143a6d9da8f578500e
+      spriteID: 6580a116ac6eb6b4cb62e8665e954c9f
       internalID: 777371536901871765
       vertices: []
       indices: 
@@ -3992,8 +3992,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_147
       rect:
         serializedVersion: 2
-        x: 48
-        y: 96
+        x: 208
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -4003,7 +4003,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ada00ac4c03ddf14cb78a493d481930b
+      spriteID: c50da50006ab90c4b978ab7e8d284157
       internalID: -1724387733235673175
       vertices: []
       indices: 
@@ -4013,8 +4013,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_148
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
+        x: 224
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -4024,7 +4024,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f001f390c90ba14e8a1a5becebfd33a
+      spriteID: 81c0ffb4fa26b32479aed4088d3f856f
       internalID: 1240998189960513498
       vertices: []
       indices: 
@@ -4034,8 +4034,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_149
       rect:
         serializedVersion: 2
-        x: 80
-        y: 96
+        x: 240
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -4045,7 +4045,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80f665ae9428d1140a233a95134b3897
+      spriteID: ec30ddd20baeef14e92bf0a3ddce348a
       internalID: -2799947850918469974
       vertices: []
       indices: 
@@ -4055,8 +4055,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_150
       rect:
         serializedVersion: 2
-        x: 96
-        y: 96
+        x: 0
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -4066,7 +4066,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7200c707862bfd4084764c46329bd0d
+      spriteID: 7e09af1e019a2344e833ec10a5b09dae
       internalID: 217065714453477465
       vertices: []
       indices: 
@@ -4076,8 +4076,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_151
       rect:
         serializedVersion: 2
-        x: 112
-        y: 96
+        x: 16
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -4087,7 +4087,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2962e6a925443234cb5bb47ab322f52e
+      spriteID: ddbad74dbe28fe741b00d28abfa2f5be
       internalID: -2471123737048822663
       vertices: []
       indices: 
@@ -4097,8 +4097,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_152
       rect:
         serializedVersion: 2
-        x: 128
-        y: 96
+        x: 32
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -4108,7 +4108,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41a3c3864769d0946a398e0e18c256ed
+      spriteID: f1943befd1acec042a7b0ad92ad65a67
       internalID: 7745527550232881855
       vertices: []
       indices: 
@@ -4118,8 +4118,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_153
       rect:
         serializedVersion: 2
-        x: 144
-        y: 96
+        x: 64
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -4129,7 +4129,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20cb42aaa423e7f4c8e822cd166b8757
+      spriteID: 1e549eff898dddb43ac7a50e0c71d1f1
       internalID: -7922256317168953471
       vertices: []
       indices: 
@@ -4139,8 +4139,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_154
       rect:
         serializedVersion: 2
-        x: 160
-        y: 96
+        x: 80
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -4150,7 +4150,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dafc8c281ce4d50459f97761747dec4c
+      spriteID: d7c56d8182ca17647b1da50d70952f17
       internalID: 8580533971425270008
       vertices: []
       indices: 
@@ -4160,8 +4160,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_155
       rect:
         serializedVersion: 2
-        x: 176
-        y: 96
+        x: 96
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -4171,7 +4171,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d9246db30cd1644cac486aff773b018
+      spriteID: d9606ae1ffc783d44aea473e730e42fd
       internalID: 6323446310544051455
       vertices: []
       indices: 
@@ -4181,8 +4181,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_156
       rect:
         serializedVersion: 2
-        x: 192
-        y: 96
+        x: 112
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -4192,7 +4192,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c0cab5e5a2e02e42980ee79446a5ad4
+      spriteID: 06f07472e50dcbe4e8a4d25ac6b28614
       internalID: 3900091451842590243
       vertices: []
       indices: 
@@ -4202,8 +4202,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_157
       rect:
         serializedVersion: 2
-        x: 208
-        y: 96
+        x: 192
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -4213,7 +4213,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43254a1deb9f113478cab3f97db08a51
+      spriteID: cea771a52e7c26445ba5c9a394bf6341
       internalID: -9127318219144356958
       vertices: []
       indices: 
@@ -4223,8 +4223,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_158
       rect:
         serializedVersion: 2
-        x: 224
-        y: 96
+        x: 208
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -4234,7 +4234,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d04cd7cdbdff5f4ab16081c0ac93df8
+      spriteID: f119e35609aeb7e4b932405feeef3196
       internalID: 7112878851833732441
       vertices: []
       indices: 
@@ -4244,8 +4244,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_159
       rect:
         serializedVersion: 2
-        x: 240
-        y: 96
+        x: 224
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -4255,7 +4255,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 318dcda164348fe4ea4428d344647814
+      spriteID: 77dd94fc1ebfde84f86e3a3dc11f5ecf
       internalID: 8551787507126752971
       vertices: []
       indices: 
@@ -4265,8 +4265,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_160
       rect:
         serializedVersion: 2
-        x: 0
-        y: 80
+        x: 240
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -4276,7 +4276,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbee84c486e672a478a373aaf92204b9
+      spriteID: fff5ed607b1b9c34780b9cd6f4435921
       internalID: -5364440738828415598
       vertices: []
       indices: 
@@ -4286,8 +4286,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_161
       rect:
         serializedVersion: 2
-        x: 16
-        y: 80
+        x: 0
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -4297,7 +4297,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d84bfe0c3b14c74a875aff8379d5446
+      spriteID: aec2f2ae039711e47a44a761abb4d03c
       internalID: 3598591891718758835
       vertices: []
       indices: 
@@ -4307,8 +4307,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_162
       rect:
         serializedVersion: 2
-        x: 32
-        y: 80
+        x: 16
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -4318,7 +4318,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e79f5283003897445b228cd5a853fd0e
+      spriteID: c1a701012b54fa343ab4eb4036db2f24
       internalID: -4344439449328957418
       vertices: []
       indices: 
@@ -4328,8 +4328,8 @@ TextureImporter:
       name: Warehouse_Tileset_Props_163
       rect:
         serializedVersion: 2
-        x: 48
-        y: 80
+        x: 32
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -4339,1940 +4339,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afd1fa8e655a8584e852904438785365
+      spriteID: adb63d65601d0ca408ee4df85f09fcfd
       internalID: -6928920908356541558
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_164
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b11756f3996e384abf708f0093700e2
-      internalID: 4493496940286831694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_165
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8dbf831196eb4c741a5b07c76b763416
-      internalID: 187884087664308342
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_166
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 10587d73cd7fbc642b680864e7d8ec1b
-      internalID: -4037912248172047094
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_167
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5cc75fb2ca322494ca074dc274e42c0c
-      internalID: 1661413192837690087
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_168
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ad5abcc08dea06469d3c0ec8e2c6ff0
-      internalID: -6909719553487513333
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_169
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6e551088e5078549be0abeb78d87911
-      internalID: -1592722880407737763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_170
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6028b472886aca1419b18c03470d51b1
-      internalID: 2048501396073819942
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_171
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64f602ea1a712204eae17c0e5e4d28f4
-      internalID: 5667335567543994493
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_172
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a968fb1fea08c64daafe69ae154492d
-      internalID: -1962400794049770510
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_173
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3326b4cdb9cdf9249820a9a9ef117a0e
-      internalID: -3440072108735772430
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_174
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94aeda7549a18424a86cf140de504c76
-      internalID: 7152742323189952182
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_175
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cbbbd753ae60fb343873a162643ef567
-      internalID: -7589852884021274395
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_176
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e66588df25f17c43bce0de7e75f1f1f
-      internalID: -2825837206522466643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_177
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b0851e60137eb7142934cfb44fa60749
-      internalID: -2120072457159552305
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_178
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 934292ceeb4435244be03f56e9cad299
-      internalID: -6231118389988482405
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_179
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd9c1122b5f2b784c91382b98d62ee36
-      internalID: -3016835987995451951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_180
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ad11c585bd37a3b418e29ae67dcd5492
-      internalID: -931287714677935514
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_181
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c9a65caa4c5011429dea4b6e934b6f6
-      internalID: -3833599504491697918
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_182
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 944868e894dd60d45b3710e59677f5d9
-      internalID: -6587800637586148539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_183
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a122dd59348ca8a49b862579f7f7d8e3
-      internalID: -2154853292380985802
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_184
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 45f6be77c08634d49940febeadf645e9
-      internalID: 2552063392405924502
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_185
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4bdb1f4ec4af0c4f9bae006143f9bac
-      internalID: 1985455755565759965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_186
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7150d6245421c6a42b09c05314e86f92
-      internalID: -2745411933583206415
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_187
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77924724e813233459504cdd2f7e33ff
-      internalID: 3868825800553601546
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_188
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70e186f4cb7345540934a06cbaf60f02
-      internalID: -3656606589048779653
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_189
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc90c68c4e73f3e4f94c351810d1c08c
-      internalID: -8098571431267760443
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_190
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ef7d73d201403746a46dd1ffba74488
-      internalID: 6495170767740338858
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_191
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f051fd5941559d4687305498f70925f
-      internalID: -89473421105282396
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_192
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9387be340b25a204690ed3ef3115dab1
-      internalID: -806501578033091715
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_193
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5dc20b65697de254690f901a415880f4
-      internalID: 7956927720035172636
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_194
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc2e9c23906954c43a1859dccb403d6e
-      internalID: -6398579799937559709
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_195
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb29489ef9cb4b845baf5efb7e02fd41
-      internalID: 3109693051852783086
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_196
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30679b24f0a591b46a24c48b46443d76
-      internalID: 5648375710021154482
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_197
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 110904d0d35d8674dabb68e288dc71a4
-      internalID: -6804432423363263302
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_198
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7e71a46e218990049bfca1933596d32d
-      internalID: 7705141328330580678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_199
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c42098661a6d9247bee60563284f205
-      internalID: -185422374903079446
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_200
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 03e1e84cc248d9f45b185c7d19268cad
-      internalID: -7802065370019487325
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_201
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a0f92458720aa14eaa3e956328a8c67
-      internalID: 7920533440701176897
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_202
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be34d8c7a09663f4fabda0342d1e1c4b
-      internalID: 7365691669780554669
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_203
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d36c7aa908100c44ead5d3cedf99db68
-      internalID: 5759683499588487241
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_204
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c5640a97b87e92479142166ff477fac
-      internalID: 150020236496584477
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_205
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7cf7f66c5921a774eb53b1805e5a832d
-      internalID: -7403998824836585043
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_206
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a514ad425bc53364698bedb15c7b1e62
-      internalID: -5312351430704745597
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_207
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 999719e3c24c7b249af2895c2406beae
-      internalID: 4207676762592128523
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_208
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff84f0bd262e1f8498e62982e9afd3f2
-      internalID: 5916544726331503445
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_209
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5519b024f356eb849b6b9596278f3ced
-      internalID: 3667883897476522116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_210
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1f4ab53f9c26974409f3cee73643e7b2
-      internalID: 3996322509136630483
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_211
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2e320a2cccb1cc42a1d4ee3b6074530
-      internalID: 1988514838013812833
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_212
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 16aa530bed780414fb128b7f1a75e05b
-      internalID: -6460881885362567433
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_213
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d826a283010d68149b5277dec0a06701
-      internalID: -6920435589956040406
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_214
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00853849bda3da7449b90a753cdd2f56
-      internalID: 5411594642929488030
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_215
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 161b98383a0c7d141babb4f2a4a96d44
-      internalID: -4656329896265748076
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_216
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 884ee100054840542911c3e19f44e4b6
-      internalID: -7205059680207653411
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_217
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88b072e0af4cff642a7de474fd98027a
-      internalID: -852790032144738273
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_218
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df9d053650800e7449f24204608d9c32
-      internalID: -3833938066565275494
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_219
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5f43633cbd7bd844b28ebaf9596e8e2
-      internalID: 8141584454260640714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_220
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8359e0bcf5f3b094aae90056b41bd0b9
-      internalID: -7732000238881300021
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_221
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1fdacd7073d0aa643a822163dc704ea8
-      internalID: -8139955003297352961
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_222
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59567f147c098b7428f2046763db085d
-      internalID: 1507628146520068127
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_223
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f9bb36663908b36449bd80b708f3a5f6
-      internalID: -6234971724773577909
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_224
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a1f7d0ab75d24db49acab1f2c8638b07
-      internalID: -1860065061518017608
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_225
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 96b90f7dd43a3e0468c29202f3f62b9d
-      internalID: 6759393464229804419
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_226
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d1b0b707a9d76de4fb68da8c51298c5e
-      internalID: 65206781545961487
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_227
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cdade21bc807fee47b224065f94c7f7e
-      internalID: 8887119921991925165
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_228
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc48555ab6061944685198b2d933e3ca
-      internalID: 7169250342765011651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_229
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 980fad15ee448d947882ea92ffaa0113
-      internalID: 5203222991315058666
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_230
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9756029bb38bc9141a64c2e92044c211
-      internalID: 4170710612611242742
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_231
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 16de640a347cf29429eaf96c7cb1079b
-      internalID: -2097495356525005913
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_232
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62cba836eed1e014aa276746043ed2b2
-      internalID: -7114839406790583741
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_233
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87db6c32d54fa814fbc38822968d0f82
-      internalID: 3155710372415740282
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_234
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac6948d102cb2224284227bf4b874b91
-      internalID: 7523755690590969090
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_235
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11cf92aaa20d9e2409bcdb47061c5db0
-      internalID: -4154474502663264269
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_236
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a6b93bd0dd700542bc7567200fafdc8
-      internalID: 5409165572181917539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_237
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70964a72ac505a34ab361cf584d01205
-      internalID: -7632472287226336647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_238
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 47acb361a3de8cd49bf3aca6e5b00711
-      internalID: 8156964018969832803
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_239
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 078c65f639794ef4282a2fcab154d9e2
-      internalID: -6773445601236433543
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_240
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56070fdae6dcb9f47bb228e41545817c
-      internalID: 6626598759466876790
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_241
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb5c05702467e2e41a3b4db1c571b059
-      internalID: -8340693211674724528
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_242
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c36566cf1b9c91e44aac5882afe39fae
-      internalID: 6528314732007978278
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_243
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 327f2a76097ebf547840e2948e792fc4
-      internalID: 3027893744884816686
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_244
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 80f0ad8a6ba9a354d862d963f5b66d12
-      internalID: -3843871345392092123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_245
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cec15563d876bf240b715a57e8dd0dd9
-      internalID: 3203468050509618967
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_246
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a535738d155e6340a64a2a2619a6f10
-      internalID: -1393992199978214714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_247
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b8a040e47fce8a44e90e6488e03ed99f
-      internalID: 1300623964195951466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_248
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c9130d23aec2157448f4bbf42dae29a6
-      internalID: -1162956619396857058
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_249
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a69f5a382b7957543afc9051204d3451
-      internalID: -395213587521482343
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_250
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d11b36b6c2598642a84667db08bef11
-      internalID: 5681919597487300679
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_251
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8fb78c15fc40768429c94bb101a8f218
-      internalID: 2987182872625636899
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_252
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6fdf2a6fe4f786a43b0548c4623f6e1a
-      internalID: -734311046336340869
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_253
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f14e206eb01174f4daeddc801bc078a7
-      internalID: -4933958411926916951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_254
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e23e4879846e17c4c9093627d74fb178
-      internalID: 1934332065220956032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Warehouse_Tileset_Props_255
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5cf77d680779bbb4ead3042d8e6be353
-      internalID: 314701645319487466
       vertices: []
       indices: 
       edges: []
