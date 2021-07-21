@@ -21,12 +21,15 @@ public class EnemySM : StateMachine
     [SerializeField]
     private bool followsPath = false;
 
+    [SerializeField]
+    float moveSpeed;
+
     private GameObject player;
     private void Awake() {
         player = GameObject.FindGameObjectWithTag("Player");
-        enemyFollowState = new EnemyFollowState(this,enemyViewRadius,player);
-        bombActivationState = new BombActivationState(this,enemyViewRadius);
-        enemyIdleState = new EnemyIdleState(this, controlPoints, enemyViewRadius,player);
+        enemyFollowState = new EnemyFollowState(this,enemyViewRadius,player, moveSpeed);
+        bombActivationState = new BombActivationState(this,enemyViewRadius, moveSpeed);
+        enemyIdleState = new EnemyIdleState(this, controlPoints, enemyViewRadius,player,moveSpeed);
 
         this.ChangeState(enemyIdleState);
     }

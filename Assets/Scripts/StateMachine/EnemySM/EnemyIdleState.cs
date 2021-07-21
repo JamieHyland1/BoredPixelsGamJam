@@ -10,13 +10,15 @@ public class EnemyIdleState : IState
 
     GameObject player;
     List<Vector3> path;
+    float speed;
     int currentPathIndex = 0;
     int nextPathIndex = 1;
-    public EnemyIdleState(EnemySM enemySM, Transform[] controlPoints, float enemyViewRadius, GameObject player){
+    public EnemyIdleState(EnemySM enemySM, Transform[] controlPoints, float enemyViewRadius, GameObject player, float speed){
         this._EnemySM = enemySM;
         this.controlPoints = controlPoints;
         this.enemyViewRadius = enemyViewRadius;
         this.player = player;
+        this.speed = speed;
     }
     public void Enter(){
         path = GeneratePath();
@@ -35,7 +37,7 @@ public class EnemyIdleState : IState
 
     public void Tick(){
         _EnemySM.checkForBombs();
-        _EnemySM.transform.position =  Vector3.MoveTowards(_EnemySM.transform.position,path[nextPathIndex],5*Time.deltaTime);
+        _EnemySM.transform.position =  Vector3.MoveTowards(_EnemySM.transform.position,path[nextPathIndex],speed*Time.deltaTime);
         if(Vector3.Distance(_EnemySM.transform.position,path[nextPathIndex]) < 0.1f){
             _EnemySM.transform.position = path[nextPathIndex];
             nextPathIndex++;

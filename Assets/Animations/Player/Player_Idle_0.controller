@@ -284,7 +284,7 @@ AnimatorController:
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 0
+    m_DefaultBool: 1
     m_Controller: {fileID: 9100000}
   - m_Name: Injured
     m_Type: 4
@@ -387,7 +387,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 1207166932338687026}
-    m_Position: {x: 470, y: 260, z: 0}
+    m_Position: {x: 380, y: 330, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4746066899189886433}
     m_Position: {x: 230, y: 120, z: 0}
@@ -665,7 +665,7 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: ySpeed
     m_EventTreshold: 0
-  - m_ConditionMode: 1
+  - m_ConditionMode: 2
     m_ConditionEvent: Grounded
     m_EventTreshold: 0
   - m_ConditionMode: 1

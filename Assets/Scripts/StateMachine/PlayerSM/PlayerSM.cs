@@ -14,9 +14,9 @@ public class PlayerSM : StateMachine
 
    [SerializeField]
     int playerHealth = 25;
-    public CharacterController controller;
+    public Rigidbody2D controller;
     
-    [SerializeField, Range(0f,10f)]
+    [SerializeField, Range(0f,1000f)]
     public float speed = 12f;
     
     [Tooltip("This determins how fast the player falls when the jump button is pressed quickly, when held longer the player jumps further")]
@@ -24,7 +24,7 @@ public class PlayerSM : StateMachine
     float forceMultipler;
     
     [Tooltip("The force of gravity applied to the player each frame")]
-    [SerializeField, Range(-30,30)]
+    [SerializeField, Range(-300,300)]
     public float gravityScale;
     
     [Tooltip("How much friction is applied to the player when they are in a block of ice")]
@@ -32,18 +32,26 @@ public class PlayerSM : StateMachine
     float friction;
 
     [Tooltip("How much force is applied to the player in the horizontal when doing a rocket jump")]
-    [SerializeField,Range(1,75)]
+    [SerializeField,Range(1,7500)]
     float xBlast;
 
     [Tooltip("How much force is applied to the player in the vertical when doing a rocket jump")]
-    [SerializeField,Range(1,-75)]
+    [SerializeField,Range(1,-7500)]
     float yBlast;
     
     
-    
+    [Header("Colission checks")]
     [Tooltip("This checks to see if the player is touching the ground or not")]
     [SerializeField]
     Transform groundCheck;
+    [SerializeField]
+    Transform wallCheckR;
+    [SerializeField]
+    Transform wallCheckL;
+
+    [SerializeField]
+    Transform wallCheckT;
+
 
     [SerializeField]
     LayerMask mask;
@@ -52,7 +60,7 @@ public class PlayerSM : StateMachine
     [SerializeField]
     Transform shootingTransform;
 
-    [SerializeField, Range(0,50)]
+    [SerializeField, Range(0,5000)]
     float jumpHeight;
 
     [SerializeField]
@@ -66,21 +74,39 @@ public class PlayerSM : StateMachine
     MoveController moveController;
     ShootController shootController;
     private void Awake() {
-        moveController = new MoveController(this,controller,speed,gravityScale, jumpHeight, forceMultipler, friction, xBlast, yBlast, groundCheck, mask, animator);
+        controller = this.GetComponent<Rigidbody2D>();
+        moveController = new MoveController(this,controller,speed,gravityScale, jumpHeight, forceMultipler, friction, xBlast, yBlast, groundCheck, wallCheckR, wallCheckL, wallCheckT , mask, animator);
         shootController = new ShootController(cursor,radius, this.transform);
 
         neutralState = new NeutralState(this,moveController,shootController);
-        slidingState = new SlidingState(this,5f,moveController);
+        slidingState = new SlidingState(this,5f,moveController, controller);
     }
    private void Start() {
       if(startingState == States.neutral)this.ChangeState(neutralState);
    }
     private void OnDrawGizmos() {
-        Gizmos.DrawSphere(groundCheck.position,0.3f);    
+        Gizmos.DrawSphere(groundCheck.position,0.1f);    
     }
 
     public void hit(){
         this.playerHealth -= 5;
         animator.SetTrigger("Hit");
+    }
+
+     private void OnTriggerEnter2D(Collider2D other) {
+
+        Debug.Log(other.gameObject.name);
+        if(other.gameObject.tag == "Player"){
+            // isPressed = true;
+            // animator.SetBool("IsPressed",isPressed);
+        }    
+    }
+
+    private void OnTriggerExit2D(Collider2D other) {
+         Debug.Log(other.gameObject.name);
+            if(other.gameObject.tag == "Player"){
+            // isPressed = false;
+            // animator.SetBool("IsPressed",isPressed);
+        }
     }
 }
