@@ -4214,6 +4214,7 @@ GameObject:
   - component: {fileID: 2115613177}
   - component: {fileID: 2115613176}
   - component: {fileID: 2115613179}
+  - component: {fileID: 2115613180}
   m_Layer: 5
   m_Name: Level Icon
   m_TagString: Untagged
@@ -4351,3 +4352,15 @@ MonoBehaviour:
   icon: {fileID: 11400000, guid: 3b5aefc9a5fcd8b40a871f6f349bba94, type: 2}
   nameText: {fileID: 648191513}
   iconImage: {fileID: 1245169554}
+--- !u!114 &2115613180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115613174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 840c71a29357337488b151843e1f8ef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
