@@ -5,6 +5,7 @@ using UnityEngine;
 public class ButtonTrigger : MonoBehaviour
 {
     public bool isPressed = false;
+    public bool hasbeenPressed = false;
     Animator animator;
     // Start is called before the first frame update
     void Start()
@@ -22,6 +23,7 @@ public class ButtonTrigger : MonoBehaviour
 
         Debug.Log(other.gameObject.name);
         if(other.gameObject.tag == "Player" || other.gameObject.tag == "Bomb"){
+            hasbeenPressed = true;
             isPressed = true;
             animator.SetBool("IsPressed",isPressed);
         }    
