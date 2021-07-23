@@ -148,8 +148,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,7 +157,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a4583535684a3f4d9fdf7f2fa02c4b9
+      spriteID: b3261ae8dbd0728409c208b972ddb7c2
       internalID: 4386436724953992984
       vertices: []
       indices: 
@@ -167,10 +167,10 @@ TextureImporter:
       name: Bomb_Idle_1
       rect:
         serializedVersion: 2
-        x: 32
+        x: 96
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,7 +178,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2a2fa95370d62f4c95d7fac86f4208b
+      spriteID: eb3d7878711bd124b9feeb78f86715f5
       internalID: -6835314849375292808
       vertices: []
       indices: 
@@ -188,10 +188,10 @@ TextureImporter:
       name: Bomb_Idle_2
       rect:
         serializedVersion: 2
-        x: 64
+        x: 192
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,7 +199,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbf8dc1ccaec31c4eb6565a1af811629
+      spriteID: 53973f2ed9de2c04dbaa57dd8600d6dd
       internalID: -5432282402653416865
       vertices: []
       indices: 

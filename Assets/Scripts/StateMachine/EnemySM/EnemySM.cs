@@ -8,7 +8,6 @@ public class EnemySM : StateMachine
     public EnemyFollowState enemyFollowState {get; private set;}
     public BombActivationState bombActivationState {get; private set;}
 
-
     [Header ("Enemy idle route")]
     [Tooltip ("Creates a path for an enemy to follow when a player isnt around by using a bezier curve")]
     [SerializeField]
@@ -17,19 +16,26 @@ public class EnemySM : StateMachine
     [SerializeField]
     [Tooltip ("determines the distance the player has to be in range of the enemy for them to follow them")]
     float enemyViewRadius;
+	
+	[SerializeField]
+    [Tooltip ("determines the distance a bomb has to be in range of the enemy for it to detect the bomb")]
+    float enemyBombDetectionRadius = 14.0f;
 
     [SerializeField]
     private bool followsPath = false;
 
     [SerializeField]
     float moveSpeed;
+	
+	[SerializeField]
+	public Animator animator;
 
     private GameObject player;
     private void Awake() {
         player = GameObject.FindGameObjectWithTag("Player");
-        enemyFollowState = new EnemyFollowState(this,enemyViewRadius,player, moveSpeed);
-        bombActivationState = new BombActivationState(this,enemyViewRadius, moveSpeed);
-        enemyIdleState = new EnemyIdleState(this, controlPoints, enemyViewRadius,player,moveSpeed);
+        enemyFollowState = new EnemyFollowState(this,enemyViewRadius, enemyBombDetectionRadius, player, moveSpeed);
+        bombActivationState = new BombActivationState(this,enemyViewRadius, enemyBombDetectionRadius, moveSpeed);
+        enemyIdleState = new EnemyIdleState(this, controlPoints, enemyViewRadius, enemyBombDetectionRadius, player, moveSpeed);
 
         this.ChangeState(enemyIdleState);
     }
@@ -49,8 +55,10 @@ public class EnemySM : StateMachine
             var bomb = bombs[i].GetComponent<Bomb>();
             if(!bomb.active){
                 float distanceFromEnemy = Vector3.Distance(this.transform.position,bombPos);
-                if(distanceFromEnemy <= enemyViewRadius){
-                this.ChangeState(bombActivationState);
+                if(distanceFromEnemy <= enemyBombDetectionRadius)
+				{
+					animator.SetBool("HasTarget", true);
+					this.ChangeState(bombActivationState);
                 }
             }
         }

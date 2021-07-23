@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveController {
+public class MoveController : MonoBehaviour {
     private PlayerSM _playerSm;
-    private Rigidbody2D characterController;
+    public Rigidbody2D characterController;
     private float playerSpeed;
     private float gravityScale;
     private float jumpHeight;
@@ -28,6 +28,7 @@ public class MoveController {
     bool facingRight = true;
 
     Animator animator;
+	
 
     public MoveController(){
 

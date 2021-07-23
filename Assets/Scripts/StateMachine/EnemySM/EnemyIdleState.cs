@@ -7,24 +7,29 @@ public class EnemyIdleState : IState
     EnemySM _EnemySM;
     Transform[] controlPoints;
     float enemyViewRadius;
+	float enemyBombDetectionRadius;
+	
+	float animDelay = 1.25f; // Roughly timed anim for lost target anim
 
     GameObject player;
     List<Vector3> path;
     float speed;
     int currentPathIndex = 0;
     int nextPathIndex = 1;
-    public EnemyIdleState(EnemySM enemySM, Transform[] controlPoints, float enemyViewRadius, GameObject player, float speed){
+    public EnemyIdleState(EnemySM enemySM, Transform[] controlPoints, float enemyViewRadius, float enemyBombDetectionRadius, GameObject player, float speed){
         this._EnemySM = enemySM;
         this.controlPoints = controlPoints;
         this.enemyViewRadius = enemyViewRadius;
+		this.enemyBombDetectionRadius = enemyBombDetectionRadius;
         this.player = player;
         this.speed = speed;
     }
     public void Enter(){
         path = GeneratePath();
-        // currentPathIndex = 0;
-        // nextPathIndex = 0;
-       // _EnemySM.transform.position = path[0];
+		
+        _EnemySM.animator.SetTrigger("TargetLost");
+		_EnemySM.animator.ResetTrigger("ActionAnimFinished");
+		animDelay = 1.25f;
     }
 
     public void Exit(){
@@ -35,23 +40,36 @@ public class EnemyIdleState : IState
 
     }
 
-    public void Tick(){
+    public void Tick() {
+		if(animDelay > 0.0f)
+			animDelay -= Time.deltaTime;
+		
         _EnemySM.checkForBombs();
-        _EnemySM.transform.position =  Vector3.MoveTowards(_EnemySM.transform.position,path[nextPathIndex],speed*Time.deltaTime);
-        if(Vector3.Distance(_EnemySM.transform.position,path[nextPathIndex]) < 0.1f){
+		
+		if(animDelay <= 0.0f) // Only move if not playing the lost target anim
+		{
+			_EnemySM.animator.SetTrigger("ActionAnimFinished");
+			_EnemySM.transform.position =  Vector3.MoveTowards(_EnemySM.transform.position,path[nextPathIndex],speed*Time.deltaTime);
+		}
+        
+		if(Vector3.Distance(_EnemySM.transform.position,path[nextPathIndex]) < 0.1f){
             _EnemySM.transform.position = path[nextPathIndex];
             nextPathIndex++;
         }
-
-
         if(nextPathIndex >= path.Count){
             path.Reverse();
             nextPathIndex = 0;
         }
 
-        if(Vector3.Distance(_EnemySM.transform.position, player.transform.position) <= enemyViewRadius){
+        if(Vector3.Distance(_EnemySM.transform.position, player.transform.position) <= enemyViewRadius)
+		{
+			_EnemySM.animator.SetBool("HasTarget", true);
             _EnemySM.ChangeState(_EnemySM.enemyFollowState);
         }
+		else
+		{
+			_EnemySM.animator.SetBool("HasTarget", false);
+		}
         
     }
 
