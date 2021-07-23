@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerSM : StateMachine
 {
@@ -13,7 +14,7 @@ public class PlayerSM : StateMachine
    States startingState;
 
    [SerializeField]
-    int playerHealth = 25;
+    int playerHealth = 1;
     public Rigidbody2D controller;
     
     [SerializeField, Range(0f,1000f)]
@@ -71,8 +72,10 @@ public class PlayerSM : StateMachine
     
     [SerializeField]
     float radius;
-    MoveController moveController;
+    
+	MoveController moveController;
     ShootController shootController;
+	
     private void Awake() {
         controller = this.GetComponent<Rigidbody2D>();
         moveController = new MoveController(this,controller,speed,gravityScale, jumpHeight, forceMultipler, friction, xBlast, yBlast, groundCheck, wallCheckR, wallCheckL, wallCheckT , mask, animator);
@@ -89,14 +92,36 @@ public class PlayerSM : StateMachine
     }
 
     public void hit(){
-        this.playerHealth -= 5;
-        animator.SetTrigger("Hit");
-        //animator.ResetTrigger("Hit");
+		
+		this.playerHealth -= 1;
+		
+		if(this.playerHealth > 0)	// We have health left and shouldn't exit the level
+		{
+			animator.SetTrigger("Hit");
+		}
+		else if(this.playerHealth > -1) // Only one instance of the death explosion
+		{
+			var explosionFX =  Resources.Load<GameObject>("Prefabs/DeathExplosion");
+			MonoBehaviour.Instantiate(explosionFX,gameObject.transform.position,gameObject.transform.rotation);
+			animator.SetTrigger("Dead");
+			
+			Destroy(gameObject.GetComponentInChildren<Rigidbody2D>());
+			Destroy(gameObject.GetComponentInChildren<SpriteRenderer>());
+			//moveController.characterController.velocity = new Vector2();
+			
+			StartCoroutine(Delay());			
+		}		
     }
+	
+	private IEnumerator Delay()
+	{
+		yield return new WaitForSeconds(4);
+		SceneManager.LoadScene(0);
+	}
 
      private void OnTriggerEnter2D(Collider2D other) {
 
-        Debug.Log(other.gameObject.name);
+        // Debug.Log(other.gameObject.name);
         if(other.gameObject.tag == "Player"){
             // isPressed = true;
             // animator.SetBool("IsPressed",isPressed);
@@ -104,7 +129,7 @@ public class PlayerSM : StateMachine
     }
 
     private void OnTriggerExit2D(Collider2D other) {
-         Debug.Log(other.gameObject.name);
+         // Debug.Log(other.gameObject.name);
             if(other.gameObject.tag == "Player"){
             // isPressed = false;
             // animator.SetBool("IsPressed",isPressed);
