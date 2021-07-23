@@ -2383,7 +2383,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7758621, y: 1}
+    m_SensorSize: {x: 1.7772622, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -2541,31 +2541,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3719423058872940670, guid: 7ca390b6fdea9044795730b7e3e73561,
-        type: 3}
-      propertyPath: m_BodyType
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3719423058872940670, guid: 7ca390b6fdea9044795730b7e3e73561,
-        type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3719423058872940670, guid: 7ca390b6fdea9044795730b7e3e73561,
-        type: 3}
-      propertyPath: m_Simulated
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3719423058872940670, guid: 7ca390b6fdea9044795730b7e3e73561,
-        type: 3}
-      propertyPath: m_GravityScale
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3719423058872940670, guid: 7ca390b6fdea9044795730b7e3e73561,
-        type: 3}
-      propertyPath: m_LinearDrag
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2477638126772084509, guid: 7ca390b6fdea9044795730b7e3e73561,
         type: 3}
       propertyPath: cursor
@@ -2611,20 +2586,40 @@ PrefabInstance:
       propertyPath: yBlast
       value: -528
       objectReference: {fileID: 0}
+    - target: {fileID: 2477638126772084509, guid: 7ca390b6fdea9044795730b7e3e73561,
+        type: 3}
+      propertyPath: friction
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2477638125842275897, guid: 7ca390b6fdea9044795730b7e3e73561,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: -1
       objectReference: {fileID: 0}
-    - target: {fileID: 2477638125953691458, guid: 7ca390b6fdea9044795730b7e3e73561,
+    - target: {fileID: 3719423058872940670, guid: 7ca390b6fdea9044795730b7e3e73561,
         type: 3}
-      propertyPath: m_SortingOrder
-      value: 40
+      propertyPath: m_BodyType
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2477638125953691458, guid: 7ca390b6fdea9044795730b7e3e73561,
+    - target: {fileID: 3719423058872940670, guid: 7ca390b6fdea9044795730b7e3e73561,
         type: 3}
-      propertyPath: m_RenderingLayerMask
-      value: 3
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719423058872940670, guid: 7ca390b6fdea9044795730b7e3e73561,
+        type: 3}
+      propertyPath: m_Simulated
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719423058872940670, guid: 7ca390b6fdea9044795730b7e3e73561,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719423058872940670, guid: 7ca390b6fdea9044795730b7e3e73561,
+        type: 3}
+      propertyPath: m_LinearDrag
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7890147271865792424, guid: 7ca390b6fdea9044795730b7e3e73561,
         type: 3}
@@ -2640,6 +2635,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 1.0108225
+      objectReference: {fileID: 0}
+    - target: {fileID: 2477638125953691458, guid: 7ca390b6fdea9044795730b7e3e73561,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2477638125953691458, guid: 7ca390b6fdea9044795730b7e3e73561,
+        type: 3}
+      propertyPath: m_RenderingLayerMask
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ca390b6fdea9044795730b7e3e73561, type: 3}
