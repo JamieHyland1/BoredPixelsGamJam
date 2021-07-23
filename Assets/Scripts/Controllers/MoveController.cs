@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -102,17 +102,23 @@ public class MoveController {
 
     Vector2 collisionCheck(Vector2 posNextFrame){
        // Debug.Log(velocity + " " + posNextFrame);
+
+       // Gets information about collisons
         RaycastHit2D hitRight = Physics2D.Raycast(wallCheckR.transform.position, Vector2.right,0.3f,mask);
         RaycastHit2D hitLeft = Physics2D.Raycast(wallCheckL.transform.position, Vector2.left,0.3f,mask);
         RaycastHit2D groundHit = Physics2D.Raycast(groundCheck.transform.position, Vector2.left,0.3f,mask);
         RaycastHit2D topHit = Physics2D.Raycast(wallCheckT.transform.position, Vector2.up,0.3f,mask);
-        if(hitLeft.collider != null && xDirection == -1)posNextFrame.x  = 0;
-        if(hitRight.collider != null && xDirection == 1)posNextFrame.x = 0;
-       
-        if(topHit.collider != null && Mathf.Sign(posNextFrame.y) == 1){
+
+       // Stops them form moving left or right
+        if(hitLeft.collider != null && xDirection == -1 && hitLeft.collider.tag != "OneWayPlatform")posNextFrame.x  = 0;
+        if(hitRight.collider != null && xDirection == 1 && hitLeft.collider.tag != "OneWayPlatform")posNextFrame.x = 0;
+        
+       // Stops them form moving up unless it a One way plat form
+        if(topHit.collider != null && Mathf.Sign(posNextFrame.y) == 1 && topHit.collider.tag != "OneWayPlatform"){
             posNextFrame.y = 0;
-            applyGravity();
-        }
+            applyGravity(); 
+        } 
+
         
         //Debug.Log(posNextFrame);
         return posNextFrame;

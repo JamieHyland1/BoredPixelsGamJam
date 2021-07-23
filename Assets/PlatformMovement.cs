@@ -7,8 +7,8 @@ public class PlatformMovement : MonoBehaviour
 
     public Transform Point1;
     public Transform Point2;
-    public float speed;
     public Transform startPoint;
+    public float speed;
 
     Vector3 nextPoint;
 
