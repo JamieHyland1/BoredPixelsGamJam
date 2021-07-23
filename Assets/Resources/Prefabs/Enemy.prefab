@@ -52,7 +52,10 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   enemyViewRadius: 7
+  enemyBombDetectionRadius: 14
   followsPath: 0
+  moveSpeed: 2
+  animator: {fileID: 1720416403993217842}
 --- !u!50 &1720416403670537504
 Rigidbody2D:
   serializedVersion: 4
