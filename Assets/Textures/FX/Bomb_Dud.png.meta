@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -166,8 +166,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,7 +175,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aaf291e85d336374193e9016450a6e49
+      spriteID: 599f44e1e30de1c4eb70576d65ca3267
       internalID: -1312087839339530779
       vertices: []
       indices: 
@@ -185,10 +185,10 @@ TextureImporter:
       name: Bomb_Dud_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 96
         y: 0
-        width: 64
-        height: 64
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,7 +196,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 703ae41c025f21945a3f41bb8cd6ae22
+      spriteID: 42d12a76b4f22ba49a77c22c3ac1dfe2
       internalID: 6824592091815806398
       vertices: []
       indices: 
@@ -206,10 +206,10 @@ TextureImporter:
       name: Bomb_Dud_2
       rect:
         serializedVersion: 2
-        x: 128
+        x: 192
         y: 0
-        width: 64
-        height: 64
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,7 +217,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47fb7b8fa0beb2e4eb5f81dd09ee4945
+      spriteID: f5b1467d8fec08544954f6e2d5379656
       internalID: -6525770067113451909
       vertices: []
       indices: 
@@ -227,10 +227,10 @@ TextureImporter:
       name: Bomb_Dud_3
       rect:
         serializedVersion: 2
-        x: 192
+        x: 288
         y: 0
-        width: 64
-        height: 64
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,7 +238,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc280bcd374056040846e86aec82ced8
+      spriteID: bf0342eae8a06694b89b4d0b26be6fc1
       internalID: 6753957916971150986
       vertices: []
       indices: 
@@ -248,10 +248,10 @@ TextureImporter:
       name: Bomb_Dud_4
       rect:
         serializedVersion: 2
-        x: 256
+        x: 384
         y: 0
-        width: 64
-        height: 64
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,7 +259,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88046aadb516313419ce94cb570ef701
+      spriteID: 0aa6b816530ea0e439953ae0733638c4
       internalID: -636723076906725502
       vertices: []
       indices: 
@@ -269,10 +269,10 @@ TextureImporter:
       name: Bomb_Dud_5
       rect:
         serializedVersion: 2
-        x: 320
+        x: 480
         y: 0
-        width: 64
-        height: 64
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,7 +280,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 179af7d4d7ee73f44be245e08357afa0
+      spriteID: 28c3d59ec6eb7b649993900cc1f0ccde
       internalID: 1761456447873441179
       vertices: []
       indices: 
@@ -290,10 +290,10 @@ TextureImporter:
       name: Bomb_Dud_6
       rect:
         serializedVersion: 2
-        x: 384
+        x: 576
         y: 0
-        width: 64
-        height: 64
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,7 +301,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cecfd00a7ea6aa447a090725a966bc23
+      spriteID: 57388071fab52db418e59ce6a6ba03a4
       internalID: -3565618149446287064
       vertices: []
       indices: 
@@ -311,10 +311,10 @@ TextureImporter:
       name: Bomb_Dud_7
       rect:
         serializedVersion: 2
-        x: 448
+        x: 672
         y: 0
-        width: 64
-        height: 64
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -322,7 +322,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 859e0712deac9bc4189fb2525aa82a34
+      spriteID: a376a54cb00adce40a0a2f46f3928ffc
       internalID: -1461647730695507072
       vertices: []
       indices: 
@@ -332,10 +332,10 @@ TextureImporter:
       name: Bomb_Dud_8
       rect:
         serializedVersion: 2
-        x: 512
+        x: 768
         y: 0
-        width: 64
-        height: 64
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,7 +343,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6eb7b20f55182b44b40ce2128c79e50
+      spriteID: 516f2c4ff399cff4ab964ac519f9fd67
       internalID: 8327266272012016944
       vertices: []
       indices: 

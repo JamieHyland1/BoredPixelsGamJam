@@ -305,7 +305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingState: 0
-  playerHealth: 25
+  playerHealth: 1
   controller: {fileID: 0}
   speed: 7.5
   forceMultipler: 4.5
@@ -316,6 +316,7 @@ MonoBehaviour:
   groundCheck: {fileID: 2477638125842275897}
   wallCheckR: {fileID: 1973877417971579563}
   wallCheckL: {fileID: 7907139416205769458}
+  wallCheckT: {fileID: 0}
   mask:
     serializedVersion: 2
     m_Bits: 512
